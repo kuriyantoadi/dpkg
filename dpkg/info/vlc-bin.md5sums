@@ -1,0 +1,12 @@
+0995f7bc841e3e623cdd6197578cca48  usr/bin/cvlc
+f620068e2d5a72a11050698d3fbc2efb  usr/bin/nvlc
+94b0abf0e07ed7a7e392c82f16b7bc39  usr/bin/rvlc
+260e632d36c4d7a1efa574f7c6359a33  usr/bin/vlc
+ebc60d045b69959b4f43d9de8cf42365  usr/bin/vlc-wrapper
+3bf7aff46dec77891e32a5fc342a390f  usr/share/apport/package-hooks/source_vlc.py
+143dd060cd683f7da6fa97b4de08f0bc  usr/share/bug/vlc-bin/control
+db5a9ef7d588ac8bafe061d1968be5cd  usr/share/bug/vlc-bin/presubj
+db14994d24ffce979dfb7f0082f2664b  usr/share/doc/vlc-bin/copyright
+1e90d5b216b849f3b6447ef8857f419c  usr/share/man/man1/vlc-wrapper.1.gz
+dcf51cf95c0c601bc504498c43005f5f  usr/share/man/man1/vlc.1.gz
+44a8a8827c8f2c96a87916b64035fcaf  usr/share/zsh/vendor-completions/_vlc

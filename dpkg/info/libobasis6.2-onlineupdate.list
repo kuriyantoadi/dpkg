@@ -1,0 +1,10 @@
+/.
+/opt
+/opt/libreoffice6.2
+/opt/libreoffice6.2/program
+/opt/libreoffice6.2/program/libupdatecheckuilo.so
+/opt/libreoffice6.2/program/libupdchklo.so
+/opt/libreoffice6.2/program/unpack_update
+/opt/libreoffice6.2/share
+/opt/libreoffice6.2/share/registry
+/opt/libreoffice6.2/share/registry/onlineupdate.xcd

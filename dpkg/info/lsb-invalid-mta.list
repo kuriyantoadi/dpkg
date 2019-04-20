@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/sbin
+/usr/sbin/sendmail
+/usr/share
+/usr/share/doc
+/usr/share/doc/lsb-invalid-mta
+/usr/share/doc/lsb-invalid-mta/changelog.gz
+/usr/share/doc/lsb-invalid-mta/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/lsb-invalid-mta
+/usr/lib/sendmail

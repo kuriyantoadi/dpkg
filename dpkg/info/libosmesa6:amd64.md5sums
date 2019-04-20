@@ -1,0 +1,5 @@
+7b9a238a7c43e24f88a45b90ad035a15  usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libosmesa6/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libosmesa6/script
+8b68944959c818870ee1893cf08437ae  usr/share/doc/libosmesa6/copyright
+676df703dcf545c9b3809e55e6c94d7a  usr/share/lintian/overrides/libosmesa6

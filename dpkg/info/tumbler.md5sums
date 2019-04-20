@@ -1,0 +1,12 @@
+f5957338da732771fb898ba0bfc6aa78  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/cache/tumbler-xdg-cache.so
+737531088b609796cfbd547f409b29f6  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/tumbler-desktop-thumbnailer.so
+fa5a031f4d52a0af8957b3dec6f8dbfd  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/tumbler-font-thumbnailer.so
+5d1c0173bd17a3207169e1db048462ed  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/tumbler-gst-thumbnailer.so
+179462e9209df3ea61a01cda67dced06  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/tumbler-jpeg-thumbnailer.so
+9f7f13109c7a4fba2bcd3df15a1ef1fd  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.so
+2cf2c27086a538922160089cade8f0b4  usr/lib/x86_64-linux-gnu/tumbler-1/plugins/tumbler-poppler-thumbnailer.so
+81ff03b1d7e506b638f2f26f9f091083  usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+7d61d3e3871a963afc5114431cba00ca  usr/share/dbus-1/services/org.xfce.Tumbler.Cache1.service
+5558c62857521dec22b1f873e13540c4  usr/share/dbus-1/services/org.xfce.Tumbler.Manager1.service
+655298cbf527f16ef298f36ac7c11233  usr/share/dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service
+8ee4c6d15036a351ec6654d356abb9ce  usr/share/doc/tumbler/copyright

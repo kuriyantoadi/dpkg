@@ -1,0 +1,10 @@
+#!/bin/bash
+RPM_INSTALL_PREFIX=
+export RPM_INSTALL_PREFIX
+
+# Create some directories if they are missing. Usually, they should exist 
+if [ "1" = "1" ]; then 
+mkdir /opt 2>/dev/null || true 
+mkdir /etc/opt 2>/dev/null || true 
+mkdir /var/opt 2>/dev/null || true 
+fi

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/gfxboot
+/usr/share
+/usr/share/doc
+/usr/share/doc/gfxboot
+/usr/share/doc/gfxboot/changelog.Debian.gz
+/usr/share/doc/gfxboot/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/gfxboot.1.gz

@@ -1,0 +1,8 @@
+2fa1068fe034fdc26df82c37d1124df7  usr/lib/x86_64-linux-gnu/qt5/plugins/audio/libqtaudio_alsa.so
+01bfe7ac033efeee396bb6470184d3e7  usr/lib/x86_64-linux-gnu/qt5/plugins/audio/libqtmedia_pulse.so
+f9e0362153f8d849ebaf55396ff36dfd  usr/lib/x86_64-linux-gnu/qt5/plugins/mediaservice/libgstaudiodecoder.so
+9c945e00eb1a33543080c52cc830b7f3  usr/lib/x86_64-linux-gnu/qt5/plugins/mediaservice/libgstcamerabin.so
+e8c1a54ac91d8c81285d8eb5100145ae  usr/lib/x86_64-linux-gnu/qt5/plugins/mediaservice/libgstmediacapture.so
+5bee51a4d56ed76d423ff6c7491f5a9b  usr/lib/x86_64-linux-gnu/qt5/plugins/mediaservice/libgstmediaplayer.so
+b4ef98a12155114e2ea192eb585013bd  usr/lib/x86_64-linux-gnu/qt5/plugins/playlistformats/libqtmultimedia_m3u.so
+f3b3c77d5ee191075816985ac34d2c0b  usr/share/doc/libqt5multimedia5-plugins/copyright

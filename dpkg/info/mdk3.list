@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/sbin
+/usr/sbin/mdk3
+/usr/share
+/usr/share/doc
+/usr/share/doc/mdk3
+/usr/share/doc/mdk3/changelog.Debian.gz
+/usr/share/doc/mdk3/changelog.gz
+/usr/share/doc/mdk3/common-ssids.txt.gz
+/usr/share/doc/mdk3/copyright
+/usr/share/doc/mdk3/fakeap-example.txt
+/usr/share/doc/mdk3/less-common-ssids.txt.gz
+/usr/share/doc/mdk3/useful2.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/mdk3.1.gz

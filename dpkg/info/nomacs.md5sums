@@ -1,0 +1,8 @@
+7223a902c2ada2107817baa28ada1ed9  usr/bin/nomacs
+da3a7f3e728ff493fab4cd5ef39d14e3  usr/lib/nomacs/libnomacsCore.so.3.8.0
+5cedd4e8e1cc6243021543ba5435c970  usr/share/applications/nomacs.desktop
+f46625b00786fa1ecb2ed2066f665536  usr/share/doc/nomacs/changelog.Debian.gz
+0115cf36e56776c835464b25597afeab  usr/share/doc/nomacs/copyright
+7825d0837cd394f2f719efcb451da398  usr/share/man/man1/nomacs.1.gz
+ff4b459087fae018007d12f8e121b2fe  usr/share/metainfo/nomacs.appdata.xml
+47953f6a5f8cd65d39dea5729b9602c6  usr/share/pixmaps/nomacs.svg

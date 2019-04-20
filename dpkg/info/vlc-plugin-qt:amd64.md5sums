@@ -1,0 +1,6 @@
+d7383ffde9bf16d8032f6849f0249e81  usr/bin/qvlc
+063de188eb00496f253ece013e7f6f4e  usr/lib/x86_64-linux-gnu/vlc/plugins/gui/libqt_plugin.so
+143dd060cd683f7da6fa97b4de08f0bc  usr/share/bug/vlc-plugin-qt/control
+db5a9ef7d588ac8bafe061d1968be5cd  usr/share/bug/vlc-plugin-qt/presubj
+db14994d24ffce979dfb7f0082f2664b  usr/share/doc/vlc-plugin-qt/copyright
+93f57670d5c72e92501c2972f1ba3c5c  usr/share/lintian/overrides/vlc-plugin-qt

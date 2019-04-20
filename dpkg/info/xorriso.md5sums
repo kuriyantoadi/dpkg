@@ -1,0 +1,10 @@
+40d80bbf79dcd6fda09574ad96f6c112  usr/bin/xorriso
+1a7620f1030f9550f13722c4c0cde636  usr/share/doc/xorriso/TODO
+f03bfa26fd375167aa96ac4fde37a77f  usr/share/doc/xorriso/copyright
+fb2795b67d64ec0fe0f6505fe1ad2458  usr/share/doc/xorriso/examples/startup_file.txt
+9bc1da8b6c526721a932fbe9432484b4  usr/share/info/xorrecord.info.gz
+89b6a43699516bf77c297d0030380840  usr/share/info/xorriso.info.gz
+9d56e7a333c4aad5bab924ad324d2ee7  usr/share/info/xorrisofs.info.gz
+e3a876e01a1437375e7c53bcff2442b5  usr/share/man/man1/xorrecord.1.gz
+b4830157b71317dcda90ed45cfad807a  usr/share/man/man1/xorriso.1.gz
+44cdc9fea23a5a126e74912f9af0137d  usr/share/man/man1/xorrisofs.1.gz

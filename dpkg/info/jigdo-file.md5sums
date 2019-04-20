@@ -1,0 +1,14 @@
+fdabba95fee8ff69a97b4838f0e5893b  usr/bin/jigdo-file
+4e199b2f4a68ad2bc28d85ca890305bf  usr/bin/jigdo-lite
+524913e426e3db937388a02bc69c556f  usr/bin/jigdo-mirror
+75f1fbf1e60280a783ce5d0b17a6831d  usr/share/doc-base/jigdo-mini-howto
+cf698c01c2af72e2a2e74a6a96c94c21  usr/share/doc/jigdo-file/THANKS
+753d017b9461fa071d1124f7a37236ce  usr/share/doc/jigdo-file/TechDetails.txt.gz
+09b56acb7e11469a78f9f9f4778b43fc  usr/share/doc/jigdo-file/changelog.Debian.gz
+465b7825466b5755966cee5617817fe8  usr/share/doc/jigdo-file/copyright
+37137f3d3f9f555ae71e3c9a08bbe5d2  usr/share/doc/jigdo-file/debian-jigdo-mini-howto.html
+0a1a68fea701e5dc71f7f7084a53fe04  usr/share/jigdo/debian-mirrors.jigdo
+32cf198e8657397140d40fe1caaafa2a  usr/share/locale/de/LC_MESSAGES/jigdo.mo
+5beed498a54ec09846191ef9511c1ed5  usr/share/man/man1/jigdo-file.1.gz
+0f59bca69a843954bec227a31c884ca4  usr/share/man/man1/jigdo-lite.1.gz
+0f94328c52b347ffde3172e88c37bd02  usr/share/man/man1/jigdo-mirror.1.gz

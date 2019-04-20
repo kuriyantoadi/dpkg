@@ -1,0 +1,9 @@
+e7af9fb11de7a106b071d1a73a5efea4  usr/lib/lsb/initdutils.py
+fa94f9cb16021f0175b53f19fb208fc7  usr/lib/lsb/install_initd
+d229eb1177b096e4c959a7614b1f40f8  usr/lib/lsb/lsbinstall
+528ccec214533052ce7e676a7c39c353  usr/lib/lsb/remove_initd
+5a4212dafbfa4b238106bd6f92dfb3b1  usr/share/doc/lsb-core/README.Debian
+374e35ead7d93e8ebd2b3fad9abcbae1  usr/share/doc/lsb-core/copyright
+066ad97b82000eba49e456b7caa4e638  usr/share/lintian/overrides/lsb-core
+9672625ab8aaf224ef555499e10c832d  usr/share/man/man8/lsb.8.gz
+39c7e782fdddf43245d41143bc6d1103  usr/share/python3/runtime.d/lsb-core.rtupdate

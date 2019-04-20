@@ -1,0 +1,6 @@
+b9d50a03c0259495bacdb48e5cf96570  usr/bin/dh_scour
+bbd1314b7a2d0dca8eaceec9314b6c43  usr/bin/scour
+fc482105d6840bcc80ef966cf035fccb  usr/share/doc/scour/copyright
+876e3d846498196db4ab6f291af9955c  usr/share/man/man1/dh_scour.1.gz
+fb99ba85bd94fdfc3fff4eb2158c658d  usr/share/perl5/Debian/Debhelper/Sequence/scour.pm
+3723cfb54fc48fd0443556bca6164e9f  usr/share/scour/cmpsvg

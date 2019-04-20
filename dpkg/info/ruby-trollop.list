@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/ruby
+/usr/lib/ruby/vendor_ruby
+/usr/lib/ruby/vendor_ruby/trollop.rb
+/usr/share
+/usr/share/rubygems-integration
+/usr/share/rubygems-integration/all
+/usr/share/rubygems-integration/all/specifications
+/usr/share/rubygems-integration/all/specifications/trollop-2.0.gemspec
+/usr/share/doc
+/usr/share/doc/ruby-trollop
+/usr/share/doc/ruby-trollop/FAQ.txt.gz
+/usr/share/doc/ruby-trollop/README.txt
+/usr/share/doc/ruby-trollop/changelog.Debian.gz
+/usr/share/doc/ruby-trollop/copyright

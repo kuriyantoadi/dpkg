@@ -1,0 +1,12 @@
+c234084ebcaed9bafec1b361f2608793  usr/bin/debianbts
+478f03d234342dc81ad712036ff7e898  usr/lib/python3/dist-packages/debianbts/__init__.py
+d9c37977a3e6d5f3396ed484cdbb3aa4  usr/lib/python3/dist-packages/debianbts/__main__.py
+4d4a111016ec7a216a86fd480aa40b78  usr/lib/python3/dist-packages/debianbts/debianbts.py
+bab259e4b8cc7e680a0d718864a3da80  usr/lib/python3/dist-packages/debianbts/version.py
+a573b858e90ab2d7c503cba38dfa2596  usr/lib/python3/dist-packages/python_debianbts-2.7.2.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/python_debianbts-2.7.2.egg-info/dependency_links.txt
+f0f83a956f922ac74c4d4e71b8098e67  usr/lib/python3/dist-packages/python_debianbts-2.7.2.egg-info/entry_points.txt
+716f103f9819bd3421384b11ee3edde6  usr/lib/python3/dist-packages/python_debianbts-2.7.2.egg-info/requires.txt
+285ee9632b455cdaeb8243819ac5f211  usr/lib/python3/dist-packages/python_debianbts-2.7.2.egg-info/top_level.txt
+7d40172e9347831a69180989b81dcd42  usr/share/doc/python3-debianbts/changelog.gz
+1c1faf2d5901f396748406fafd2157a9  usr/share/doc/python3-debianbts/copyright

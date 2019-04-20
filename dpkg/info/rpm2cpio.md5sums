@@ -1,0 +1,5 @@
+41e2f6a2580dfaee9aa1a9a6a201fc94  usr/bin/rpm2archive
+d5775609e099ce0467c8fcbb49b8c433  usr/bin/rpm2cpio
+d9401f0eae60dfe4a87b9effa9a02463  usr/share/doc/rpm2cpio/copyright
+c1d67e046461dd988ab03fb39c3cb78e  usr/share/man/man8/rpm2archive.8.gz
+e59daa7267cd025d2b635cf92b9444cc  usr/share/man/man8/rpm2cpio.8.gz

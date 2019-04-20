@@ -1,0 +1,13 @@
+de2a98bc800e349d10c69bd8defcc850  usr/lib/firefox-addons/extensions/langpack-en-CA@firefox.mozilla.org.xpi
+0e6c2dc19afe312c72c294e2d4ccb27b  usr/lib/firefox-addons/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+990b9e05632372d8a6eebed4b1bbe221  usr/lib/firefox-addons/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+b28d450d203edc398cbccadf4f72a5c3  usr/lib/firefox/distribution/searchplugins/locale/en-CA/ddg.xml
+41f83c691d2ec4ab685f5de49d78ae30  usr/lib/firefox/distribution/searchplugins/locale/en-CA/google.xml
+40264b293830342978d02c1620b0ff1b  usr/lib/firefox/distribution/searchplugins/locale/en-GB/amazon-en-GB.xml
+b28d450d203edc398cbccadf4f72a5c3  usr/lib/firefox/distribution/searchplugins/locale/en-GB/ddg.xml
+41f83c691d2ec4ab685f5de49d78ae30  usr/lib/firefox/distribution/searchplugins/locale/en-GB/google.xml
+5a37aa8cfcd590f4cfb9b8a7ee3478a8  usr/lib/firefox/distribution/searchplugins/locale/en-ZA/amazondotcom.xml
+b28d450d203edc398cbccadf4f72a5c3  usr/lib/firefox/distribution/searchplugins/locale/en-ZA/ddg.xml
+41f83c691d2ec4ab685f5de49d78ae30  usr/lib/firefox/distribution/searchplugins/locale/en-ZA/google.xml
+7d72cc56bd56477f53973d940588c15f  usr/share/doc/firefox-locale-en/changelog.Debian.gz
+42c48e3ef0ad6ce0b8173eb7488e2992  usr/share/doc/firefox-locale-en/copyright

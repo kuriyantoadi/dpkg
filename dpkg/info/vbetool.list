@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/sbin
+/usr/sbin/vbetool
+/usr/share
+/usr/share/doc
+/usr/share/doc/vbetool
+/usr/share/doc/vbetool/changelog.Debian.gz
+/usr/share/doc/vbetool/copyright
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/vbetool.8.gz

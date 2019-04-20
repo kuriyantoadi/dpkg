@@ -1,0 +1,9 @@
+6961ebc4623b1859fb22bbc9b0736798  usr/bin/unetbootin
+d96cf257b26e8e2ee6dc035314c6ad58  usr/bin/unetbootin_asroot
+9bc03c3c0af72d03d4198f87527dbcd4  usr/share/applications/unetbootin.desktop
+05d604c87c219d39a17c7e8dd1ae0915  usr/share/doc/unetbootin/changelog.Debian.gz
+f88ae3517d836a4627393f270fe63a1d  usr/share/doc/unetbootin/copyright
+2e90c61820566875657b2e8adfabca66  usr/share/man/man1/unetbootin.1.gz
+d6b4cbd26aed832bb5a26674c3c3657a  usr/share/menu/unetbootin
+fbe9b3cc9afd7f712a931f4c70f98e87  usr/share/pixmaps/unetbootin.xpm
+36db9c37e0dae8054c5a9ab277f6957d  usr/share/polkit-1/actions/org.unetbootin.pkexec.unetbootin.policy

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+APPLICATION_NAME="zoiper5"
+MIMEAPPS_FILE="/usr/local/applications/mimeapps.list"
+INSTALL_DIR="/usr/bin"
+
+function write_protocol_in_mimeapps {
+  if [ ! -e "${MIMEAPPS_FILE}" ]; then
+    return;
+  fi
+
+  protocol_handlers=$(grep "${1}" "${MIMEAPPS_FILE}")
+  if [ "${protocol_handlers}" == "" ]; then
+    echo "application/x-scheme-handler/${1}=${APPLICATION_NAME}.desktop" >> $MIMEAPPS_FILE
+  fi
+}
+
+write_protocol_in_mimeapps "sip"
+write_protocol_in_mimeapps "callto"
+write_protocol_in_mimeapps "tel"
+write_protocol_in_mimeapps "zoiper"
+
+useless_text=$(which update-desktop-database)
+if [ 0 -eq $? ]; then
+  update-desktop-database
+fi

@@ -1,0 +1,7 @@
+a79c072ada7573f1afbbc31a8756199d  bin/pax
+7c2e4d95a07fae703300d8572123980c  usr/share/doc/pax/changelog.Debian.gz
+cbdec430e9eb8273d1058eb47e48e59b  usr/share/doc/pax/copyright
+abacbf32ad7186cc4894d76b9fa6b45e  usr/share/lintian/overrides/pax
+c05f4a0b5197375095f30db9537beeb3  usr/share/man/man1/pax.1.gz
+e7cece82536702fc6139719392941ece  usr/share/man/man1/paxcpio.1.gz
+b842799b101809ce36a0354635d5b817  usr/share/man/man1/paxtar.1.gz

@@ -1,0 +1,5 @@
+bcebc2ccc48b80a5ab31eeb2a4a329f2  usr/bin/wireshark
+e784b8f463814a8c9c3a510bba10ff28  usr/share/applications/wireshark.desktop
+1bba89df958cbfd49d3a536598af175d  usr/share/doc/wireshark-qt/copyright
+33b59ad8e377dbe80e8aac6a70ff7dfd  usr/share/lintian/overrides/wireshark-qt
+e8dd0029bcc7927fbade6c8521e26241  usr/share/man/man1/wireshark.1.gz

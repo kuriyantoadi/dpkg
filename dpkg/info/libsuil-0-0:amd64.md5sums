@@ -1,0 +1,8 @@
+9c2f00b993700819ddaae4a4391bb6b1  usr/lib/x86_64-linux-gnu/libsuil-0.so.0.10.0
+707215c86d3eee33b24dad78ebf1ef81  usr/lib/x86_64-linux-gnu/suil-0/libsuil_gtk2_in_qt5.so
+8441892f5be8a7b14eecfc77f0a34025  usr/lib/x86_64-linux-gnu/suil-0/libsuil_qt5_in_gtk2.so
+971d98c20972e6afd937dc963df3d00c  usr/lib/x86_64-linux-gnu/suil-0/libsuil_x11.so
+33a9663ce09d700b68d5ccc0b76a710b  usr/lib/x86_64-linux-gnu/suil-0/libsuil_x11_in_gtk2.so
+18ed6d61592c131eff9e399c9cb7df82  usr/lib/x86_64-linux-gnu/suil-0/libsuil_x11_in_qt5.so
+5c466a0f6cddc96b489e71a69c225b17  usr/share/doc/libsuil-0-0/changelog.Debian.gz
+c38604687c4a43b42954ecffa6dfc676  usr/share/doc/libsuil-0-0/copyright

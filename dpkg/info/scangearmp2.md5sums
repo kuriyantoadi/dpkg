@@ -1,0 +1,16 @@
+87a3bea67973806cd81c5ba5ff14d8be  usr/lib/libcncpmslld2.so.3.0.0
+614ba73d037979078ecaf1a6ede5f5c6  usr/lib/bjlib/canon_mfp2_net.ini
+56dbc6dd88f6cb0ba7bface0661fae2c  usr/lib/bjlib/canon_mfp2.conf
+1ce13bcdd0daa712c4d9342ba237cf80  usr/lib/libcncpnet2.so.1.2.3
+e61ddb60345fe2e3bcd1789975eac12f  usr/bin/scangearmp2
+f050f68e167ccd7c8a40f0bc3223cbb1  usr/share/doc/scangearmp2/LICENSE-scangearmp-3.10FR.txt
+bf547c3163d08796afafed44a805f98b  usr/share/doc/scangearmp2/copyright
+899a3a04bc5d7fbbb6bfc7bfa6bcc4f6  usr/share/doc/scangearmp2/LICENSE-scangearmp-3.10SC.txt
+b6dd3d1bdc0a362ef3f64a25d9e596b2  usr/share/doc/scangearmp2/LICENSE-scangearmp-3.10EN.txt
+84de3eb3255eb3cf046cf72488b48d80  usr/share/doc/scangearmp2/changelog.Debian.gz
+62a87faab05429baff356eac3fee8032  usr/share/doc/scangearmp2/LICENSE-scangearmp-3.10JP.txt
+dc5a82cac8402865bc8768aa2b44784f  usr/share/scangearmp2/scangearmp2.glade
+5e79ce09d311dec3b863503a88882ad8  usr/share/locale/ja/LC_MESSAGES/scangearmp2.mo
+77162db845b784c8f32a053b1a15d60c  usr/share/locale/zh/LC_MESSAGES/scangearmp2.mo
+52580410a0dd7818c0a767659ee59032  usr/share/locale/fr/LC_MESSAGES/scangearmp2.mo
+7b1c52e8fd9db77be6e37f026781a44f  usr/share/locale/de/LC_MESSAGES/scangearmp2.mo

@@ -1,0 +1,12 @@
+/.
+/opt
+/opt/libreoffice6.2
+/opt/libreoffice6.2/program
+/opt/libreoffice6.2/program/libpostgresql-sdbc-impllo.so
+/opt/libreoffice6.2/program/libpostgresql-sdbclo.so
+/opt/libreoffice6.2/program/postgresql-sdbc.ini
+/opt/libreoffice6.2/program/services
+/opt/libreoffice6.2/program/services/postgresql-sdbc.rdb
+/opt/libreoffice6.2/share
+/opt/libreoffice6.2/share/registry
+/opt/libreoffice6.2/share/registry/postgresql.xcd

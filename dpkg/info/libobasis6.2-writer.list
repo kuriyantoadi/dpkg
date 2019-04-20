@@ -1,0 +1,17 @@
+/.
+/opt
+/opt/libreoffice6.2
+/opt/libreoffice6.2/program
+/opt/libreoffice6.2/program/libhwplo.so
+/opt/libreoffice6.2/program/liblwpftlo.so
+/opt/libreoffice6.2/program/libmswordlo.so
+/opt/libreoffice6.2/program/libswdlo.so
+/opt/libreoffice6.2/program/libswuilo.so
+/opt/libreoffice6.2/program/libt602filterlo.so
+/opt/libreoffice6.2/program/libvbaswobjlo.so
+/opt/libreoffice6.2/program/libwpftwriterlo.so
+/opt/libreoffice6.2/program/libwriterfilterlo.so
+/opt/libreoffice6.2/program/libwriterlo.so
+/opt/libreoffice6.2/share
+/opt/libreoffice6.2/share/registry
+/opt/libreoffice6.2/share/registry/writer.xcd

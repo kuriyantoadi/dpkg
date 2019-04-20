@@ -1,0 +1,13 @@
+4b0c18cd6718ee705049d118870d290c  usr/bin/atril
+249c547d2e94ad36ad66bf0d38cec255  usr/bin/atril-previewer
+5ba335574510d401afa5d1d9568709a1  usr/bin/atril-thumbnailer
+5a5a3537225fbaade05d584a7e0e4494  usr/lib/atril/atrild
+da3e1ecfc0fd1ccaab3444bcd7c06216  usr/lib/x86_64-linux-gnu/caja/extensions-2.0/libatril-properties-page.so
+9c96d9911c60ae31d995fad4a18c3b87  usr/share/applications/atril.desktop
+2122da5cd80d1a01c1c73c2719d93839  usr/share/dbus-1/services/org.mate.atril.Daemon.service
+4c7e0c127e04bfaf57462617229543e7  usr/share/doc/atril/copyright
+825fbcccbe5a19bf7503eaf8e8b0d65c  usr/share/glib-2.0/schemas/org.mate.Atril.gschema.xml
+49bf1cba97ec73a1593e0d3185515bb6  usr/share/lintian/overrides/atril
+e14b08a1e65a01f076c421d992ad0f9f  usr/share/man/man1/atril-previewer.1.gz
+0b33af5fc041568c62cb80bad9cb4307  usr/share/man/man1/atril-thumbnailer.1.gz
+1805b856a76cb707e1e5ccff9fe9f817  usr/share/man/man1/atril.1.gz

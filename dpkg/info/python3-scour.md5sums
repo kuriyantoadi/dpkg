@@ -1,0 +1,13 @@
+c731bd9c18c5c28899300151f4f955d9  usr/lib/python3/dist-packages/scour-0.36.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/scour-0.36.egg-info/dependency_links.txt
+f6bcddc356bd5920c0938245da45d30c  usr/lib/python3/dist-packages/scour-0.36.egg-info/entry_points.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/scour-0.36.egg-info/requires.txt
+457512062b86042350216fc23f773f75  usr/lib/python3/dist-packages/scour-0.36.egg-info/top_level.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/scour-0.36.egg-info/zip-safe
+be0d1d9b0fb706ac7de29483995db079  usr/lib/python3/dist-packages/scour/__init__.py
+8f0d23b313e9b84163eb452f28d78d9f  usr/lib/python3/dist-packages/scour/scour.py
+c441d34a73c88f26d83f05dfc02dd06d  usr/lib/python3/dist-packages/scour/svg_regex.py
+3c0f5cb9c03f04e164ae5a0da8ce576e  usr/lib/python3/dist-packages/scour/svg_transform.py
+2627ab0af784bd0be5887db84e53b104  usr/lib/python3/dist-packages/scour/yocto_css.py
+e9cb372696dfb9b24cdbc6666d92dd86  usr/share/doc/python3-scour/changelog.Debian.gz
+fc482105d6840bcc80ef966cf035fccb  usr/share/doc/python3-scour/copyright

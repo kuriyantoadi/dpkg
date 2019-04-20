@@ -1,0 +1,13 @@
+6523740610c3d7d2a6d90f71f5fad774  usr/bin/pacat
+8f407064babd0bdbf03d15ab60df163d  usr/bin/pacmd
+3fa2475a4d31a49b4f21ebe90d896faf  usr/bin/pactl
+ed429bd388ccf82c77dc398e0fde29a7  usr/bin/padsp
+c55c95d5682c819cf51435a277f37356  usr/bin/pasuspender
+2b6e41210a477cbfcc34ddf672b4cef2  usr/bin/pax11publish
+aeed6623fdd06a42735cd178b2d4c79c  usr/share/doc/pulseaudio-utils/copyright
+05ffd757149b44d59e64cdfb9b27e70c  usr/share/man/man1/pacat.1.gz
+548be77d1d1d05ef7a1e4270bff8ba9b  usr/share/man/man1/pacmd.1.gz
+f41b19d3346d48b1d4fa2f511d9de88e  usr/share/man/man1/pactl.1.gz
+88c34f3c907754e03ae7cb815c46ca7c  usr/share/man/man1/padsp.1.gz
+8daa032e13d1dc5c715959bd52710633  usr/share/man/man1/pasuspender.1.gz
+9bd8174a18a4e60e0fa561177a6ecc1a  usr/share/man/man1/pax11publish.1.gz

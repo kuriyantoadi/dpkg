@@ -1,0 +1,9 @@
+/.
+/opt
+/opt/libreoffice6.2
+/opt/libreoffice6.2/program
+/opt/libreoffice6.2/program/classes
+/opt/libreoffice6.2/program/classes/ScriptProviderForJavaScript.jar
+/opt/libreoffice6.2/program/classes/js.jar
+/opt/libreoffice6.2/program/services
+/opt/libreoffice6.2/program/services/scriptproviderforjavascript.rdb

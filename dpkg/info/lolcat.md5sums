@@ -1,0 +1,10 @@
+6669174cc9955375474c29f29ede8e7b  usr/games/lolcat
+8e6f3157902e8b8bfb32b160d6d802ba  usr/lib/ruby/vendor_ruby/lolcat.rb
+28a748f7958dd85bfa7d7b8dd2ca0be0  usr/lib/ruby/vendor_ruby/lolcat/cat.rb
+59f025a01793edd3adf69e4c529d3b34  usr/lib/ruby/vendor_ruby/lolcat/lol.rb
+fafe70c21daca4540ba9d9c4e4c2f1d6  usr/lib/ruby/vendor_ruby/lolcat/version.rb
+e556537d53fb6c6b6aeb77e3cdf82232  usr/share/doc/lolcat/README.md
+9c3ab3b431f88c5ec364cdff103b573c  usr/share/doc/lolcat/changelog.Debian.gz
+1e50228bbbc5bd3c3e3dddabf88a0393  usr/share/doc/lolcat/copyright
+b985e90afb69a205982abd4916f782ff  usr/share/lintian/overrides/lolcat
+851b8cc9f1ebd14108fdcdea927211d6  usr/share/man/man6/lolcat.6.gz

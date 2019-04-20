@@ -1,0 +1,14 @@
+083e11aad9c542366f84e53741f27d2b  usr/bin/kbookmarkmerger
+e6c6f9866dbe08b12d0813b753c35f7d  usr/bin/kdialog
+ad0efa90b9177d367095e3b80acfc07a  usr/bin/keditbookmarks
+2d2f34be43a1b3234f667fa15a9eff55  usr/lib/kde4/kcm_kio.so
+b8eeb8ba115afbf52fe772a1ebfedd00  usr/lib/kde4/kcm_konq.so
+f84a4dca3a517fcafe2985bcf82e682c  usr/lib/kde4/kcm_konqhtml.so
+d8ec1b6013998c1c45cb38e26d2f057d  usr/lib/kde4/kcm_kurifilt.so
+3c5d2d6453a169e736b0187c0cf0d614  usr/lib/kde4/kcm_performance.so
+9e8f69d6595b9fa75bc5f82cd4586612  usr/lib/kde4/libkdeinit/libkdeinit4_keditbookmarks.so
+6acd3eb2846da8eee6750f44b83d37fb  usr/lib/libkbookmarkmodel_private.so.4.14.22
+414a30fb8122b26ae396c3336b7c8caa  usr/share/applications/kde4/keditbookmarks.desktop
+94e4abd5bbf864467aaeb53fcb7a1cdd  usr/share/doc/kde-baseapps-bin/changelog.Debian.gz
+ec8a75df6a825113c1dc6d91a8ff3c31  usr/share/doc/kde-baseapps-bin/copyright
+698263a6a5b1d5b9809be3981cbe2847  usr/share/lintian/overrides/kde-baseapps-bin

@@ -1,0 +1,13 @@
+/.
+/opt
+/opt/libreoffice6.2
+/opt/libreoffice6.2/program
+/opt/libreoffice6.2/program/libevoablo.so
+/opt/libreoffice6.2/program/liblosessioninstalllo.so
+/opt/libreoffice6.2/program/libucpgio1lo.so
+/opt/libreoffice6.2/program/libvclplug_gtk3lo.so
+/opt/libreoffice6.2/program/libvclplug_gtklo.so
+/opt/libreoffice6.2/program/xid-fullscreen-on-all-monitors
+/opt/libreoffice6.2/share
+/opt/libreoffice6.2/share/registry
+/opt/libreoffice6.2/share/registry/gnome.xcd

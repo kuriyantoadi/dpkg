@@ -1,0 +1,37 @@
+9f55aa5400947d46791c8954d165590d  usr/bin/xfpanel-switch
+d45bc482ec8875120f7a4c409c7997b7  usr/share/applications/xfpanel-switch.desktop
+e5ec85e640355670cf925b0d7bf53a2d  usr/share/doc/xfpanel-switch/AUTHORS
+4bb21100a1310eb7ed5b186500f1e6fb  usr/share/doc/xfpanel-switch/NEWS.gz
+f6b67aa69a426eab388240253952ee68  usr/share/doc/xfpanel-switch/README
+f41b8b77e33711deec9509b981f52c96  usr/share/doc/xfpanel-switch/changelog.Debian.gz
+85377cbfbb161493d8a49eb9060dceb5  usr/share/doc/xfpanel-switch/copyright
+eeb4087dafffdd0dee2081fbab1121e5  usr/share/locale/cs/LC_MESSAGES/xfpanel-switch.mo
+217bbca147da3c0dd0a52e4ec5115218  usr/share/locale/de/LC_MESSAGES/xfpanel-switch.mo
+e60ee643ad37ff6a4d3988047be64de1  usr/share/locale/el/LC_MESSAGES/xfpanel-switch.mo
+2050b3bc9ba8b7ed9351c1416ffad6e3  usr/share/locale/es/LC_MESSAGES/xfpanel-switch.mo
+02710ed180c9f273a30e6e10d9764dbe  usr/share/locale/fi/LC_MESSAGES/xfpanel-switch.mo
+c68f9761c36f3e5368bc6e21aa7530a5  usr/share/locale/fr/LC_MESSAGES/xfpanel-switch.mo
+c3e530813740521bd6e87546afb9156a  usr/share/locale/gl/LC_MESSAGES/xfpanel-switch.mo
+5f8921c40d2be2f4aeecfe263745dc88  usr/share/locale/it/LC_MESSAGES/xfpanel-switch.mo
+765af3d02bdcd6f3c8aefae3388b2eb9  usr/share/locale/ja/LC_MESSAGES/xfpanel-switch.mo
+17744abe7421965ca8332c3600d4fcc8  usr/share/locale/kk/LC_MESSAGES/xfpanel-switch.mo
+69925bee3f2da9eec8a396a27e861136  usr/share/locale/lt/LC_MESSAGES/xfpanel-switch.mo
+ef381de6c9fd37aababe8fe3b64b0960  usr/share/locale/nl/LC_MESSAGES/xfpanel-switch.mo
+0461773ebd2f1892b2f9c2a4a9dfc745  usr/share/locale/pl/LC_MESSAGES/xfpanel-switch.mo
+f8766b16ea7f85854b2aa577bf8c1ae2  usr/share/locale/pt/LC_MESSAGES/xfpanel-switch.mo
+7436e72b92e7ed0086ab293adc954a51  usr/share/locale/pt_BR/LC_MESSAGES/xfpanel-switch.mo
+768037395af54dc7f1010efbf73eae62  usr/share/locale/ru/LC_MESSAGES/xfpanel-switch.mo
+be6dc4a434e89e36a89d1f762fac4a3b  usr/share/locale/sl/LC_MESSAGES/xfpanel-switch.mo
+72eb6c2689fa4a0f55a31de8d6d12be3  usr/share/locale/sr/LC_MESSAGES/xfpanel-switch.mo
+9fcc57ff3c60aa11361b9f8ed9fcc674  usr/share/locale/sv/LC_MESSAGES/xfpanel-switch.mo
+90eac458c21f46d1c250a6f1555fa0fb  usr/share/metainfo/org.xubuntu.XfpanelSwitch.appdata.xml
+a8fb5ba2e728f9a31dca72208bc707ec  usr/share/python3/runtime.d/xfpanel-switch.rtupdate
+4eaa8312a3c157914e98e15201359305  usr/share/xfpanel-switch/layouts/GNOME 2.tar.bz2
+9f764596ae1500d89efe093620df6fc5  usr/share/xfpanel-switch/layouts/Redmond.tar.bz2
+ed26d337658f0092c46d3186da5431c3  usr/share/xfpanel-switch/layouts/Xfce 4.12.tar.bz2
+309a148bd74436265ea52ba6af1874d7  usr/share/xfpanel-switch/layouts/Xubuntu Bionic.tar.bz2
+fbb33987a6947ae8206ebec8452afa5b  usr/share/xfpanel-switch/layouts/Xubuntu Precise.tar.bz2
+e54d13f6ae6566e00640b6197e417201  usr/share/xfpanel-switch/layouts/Xubuntu Trusty.tar.bz2
+91ea29cf64bc0f86e39f62d7a138df07  usr/share/xfpanel-switch/xfpanel-switch/panelconfig.py
+f23317f25af49fea45c40b1551f6b540  usr/share/xfpanel-switch/xfpanel-switch/xfpanel-switch.glade
+00b8a5f965cfb63d6c017f47773c598f  usr/share/xfpanel-switch/xfpanel-switch/xfpanel-switch.py

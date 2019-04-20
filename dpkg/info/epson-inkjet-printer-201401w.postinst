@@ -1,0 +1,103 @@
+#!/bin/bash
+RPM_INSTALL_PREFIX=
+export RPM_INSTALL_PREFIX
+/sbin/ldconfig
+
+if [ "1" = "1" ]; then 
+if [ -d /usr/share/ppd ]; then 
+    ppddir=/usr/share/ppd 
+else 
+    ppddir=/usr/share/cups/model 
+fi 
+# Remove old links to PPD file directory 
+[ -h $ppddir/epson-inkjet-printer-201401w/ppds ] && rm -f $ppddir/epson-inkjet-printer-201401w/ppds 
+[ -h $ppddir/epson-inkjet-printer-201401w ] && rm -f $ppddir/epson-inkjet-printer-201401w 
+# Make PPD files available to CUPS 
+ln -sf /opt/epson-inkjet-printer-201401w/ppds $ppddir/epson-inkjet-printer-201401w 2>/dev/null || true 
+fi 
+
+
+driverstr="epson-inkjet-printer" 
+supplier=epson-inkjet-printer-201401w 
+supplierstr="Seiko Epson Corporation" 
+ppdrepo=/opt/epson-inkjet-printer-201401w/ppds 
+if cups-config --version >/dev/null 2>/dev/null; then 
+    serverroot=`cups-config --serverroot` 
+else 
+    serverroot=/etc/cups 
+fi 
+cd $serverroot/ppd 
+for ppd in *.ppd; do 
+    [ -r "$ppd" ] || continue 
+    queue=${ppd%.ppd} 
+    lpstat -h 127.0.0.1:631 -p "$queue" >/dev/null 2>&1 || continue 
+    if grep -qE '\*NickName:.*\b'"$driverstr"'\b.*\b'"$supplierstr"'\b' "$ppd" 2> /dev/null; then 
+        make=`grep '\*Manufacturer:' "$ppd" | cut -d '"' -f 2 | perl -p -e "s/[\s_\/]+/_/g" | perl -p -e "s/\+/plus/g" | perl -p -e 's/_+$//'` 
+        model=`grep '\*ModelName:' "$ppd" | cut -d '"' -f 2 | perl -p -e "s/[\s_\/]+/_/g" | perl -p -e "s/\+/plus/g" | perl -p -e 's/_+$//' | perl -p -e "s/^${make}_+//i"` 
+        if [ -z "$make" ]; then 
+            make=`echo "$model" | cut -d '_' -f 1` 
+            model=`echo "$model" | perl -p -e "s/^${make}_+//i"` 
+        fi 
+        if grep -q '\*cupsLanguages:' "$ppd" 2>/dev/null; then 
+          lang="" 
+        else 
+          langstr=`grep '\*LanguageVersion:' "$ppd" | cut -d ' ' -f 2 | perl -e 'print lc(<>)' | perl -p -e 's/[\r\n]//gs'` 
+          case "$langstr" in 
+            "chinese") lang=zh;; 
+            "czech") lang=cs;; 
+            "danish") lang=da;; 
+            "dutch") lang=nl;; 
+            "english") lang=en;; 
+            "finnish") lang=fi;; 
+            "french") lang=fr;; 
+            "german") lang=de;; 
+            "greek") lang=el;; 
+            "hungarian") lang=hu;; 
+            "italian") lang=it;; 
+            "japanese") lang=ja;; 
+            "korean") lang=ko;; 
+            "norwegian") lang=no;; 
+            "polish") lang=pl;; 
+            "portuguese") lang=pt;; 
+            "russian") lang=ru;; 
+            "simplified chinese") lang=zh_CN;; 
+            "slovak") lang=sk;; 
+            "spanish") lang=es;; 
+            "swedish") lang=sv;; 
+            "traditional chinese") lang=zh_TW;; 
+            "turkish") lang=tr;; 
+            *) lang=en;; 
+          esac 
+          lang="-$lang" 
+        fi 
+        if [ -z "$lpinfocache" ]; then 
+            trap 'rm -f "$lpinfocache" 2>/dev/null; exit 0' 0 HUP INT QUIT ILL ABRT PIPE TERM 2>/dev/null || true 
+            lpinfocache=`mktemp -t epson-inkjet-printer-201401w-postinst.XXXXXX 2>/dev/null` 
+            [ -n "$lpinfocache" ] || lpinfocache="epson-inkjet-printer-201401w-postinst.$$" 
+            lpinfo -h 127.0.0.1:631 -m > "$lpinfocache" 2>/dev/null 
+        fi 
+        if [ -n "$lpinfocache" ]; then 
+            ppduri=`cat "$lpinfocache" | \
+            grep "$supplier/$make/$make-$model-epson-driver$lang.ppd" | \
+            cut -d " " -f 1` && \
+            lpadmin -h 127.0.0.1:631 -p "$queue" -m "$ppduri" 2>/dev/null || true 
+        fi 
+    fi 
+done 
+[ -n "$lpinfocache" ] && rm -f $lpinfocache 
+
+
+if [ -x /etc/init.d/cups ]; then 
+   cups="cups" 
+else 
+    if [ -x /etc/init.d/cupsys ]; then 
+        cups="cupsys" 
+    fi 
+fi 
+if [ ! -z "$cups" ]; then 
+    if [ -x "`which invoke-rc.d 2>/dev/null`" ]; then 
+        invoke-rc.d $cups restart 2>/dev/null || true 
+    else 
+        /etc/init.d/$cups restart 2>/dev/null || true 
+    fi 
+fi

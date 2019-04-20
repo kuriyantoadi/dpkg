@@ -1,0 +1,12 @@
+3c3c31cae96d0a73aa0e9bb722e65250  usr/bin/rar
+a10b033540cf2fc3785422bd8d722b24  usr/lib/default.sfx
+137ab62d31ad429b1d09d21e9ee4bcd6  usr/share/doc/rar/acknow.txt.gz
+7180abec4e97dc47585b2f5536d02419  usr/share/doc/rar/changelog.Debian.gz
+81df0a4e7a1c009ecfc96f60b10d8f83  usr/share/doc/rar/copyright
+f5e876bb6fb3df447c31acbca07fe6dd  usr/share/doc/rar/license.txt.gz
+e1ccb864e3ccff3b90b270fc47717b5e  usr/share/doc/rar/order.htm
+98e88cfbb47f60b540f9c51e5cb286ca  usr/share/doc/rar/rar.txt.gz
+cbf211ca38b6eff7564ba2eb16fa982c  usr/share/doc/rar/readme.txt
+07caccea40cb681dd9b6456552bb1b80  usr/share/doc/rar/whatsnew.txt.gz
+ddc44925f96935e19c9fecd3bf4e1f58  usr/share/lintian/overrides/rar
+6109852dccb50d6d592f397d8dad3f11  usr/share/man/man1/rar.1.gz

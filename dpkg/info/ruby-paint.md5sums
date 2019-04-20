@@ -1,0 +1,11 @@
+a0424027d8f9ed403d9f2fa79d550306  usr/lib/ruby/vendor_ruby/paint.rb
+b4b4178e858d09bc7211f7a0d2c0ee53  usr/lib/ruby/vendor_ruby/paint/pa.rb
+c5b1a3f3ffead98857e5356d7b67fe90  usr/lib/ruby/vendor_ruby/paint/rgb_colors.rb
+7d2f9e38eb5fd1964cd974af1339a0ea  usr/lib/ruby/vendor_ruby/paint/rgb_colors_ansi.rb
+69d5d87b9b327c0e4d8abd021bfc5ba0  usr/lib/ruby/vendor_ruby/paint/shortcuts.rb
+43283362b7c04952760b2e58346458b4  usr/lib/ruby/vendor_ruby/paint/util.rb
+06835825253f99e1f3759124d0a20be4  usr/lib/ruby/vendor_ruby/paint/version.rb
+014567bc911c162e7692b97bf3ebb050  usr/share/doc/ruby-paint/README.rdoc.gz
+e1b68e5152be9b725401ce232b88054c  usr/share/doc/ruby-paint/changelog.Debian.gz
+40aa133862a880c69b17c25c459008c4  usr/share/doc/ruby-paint/copyright
+3b8174c3491add427cbc8db0a343ba4b  usr/share/rubygems-integration/all/specifications/paint-0.8.6.gemspec
