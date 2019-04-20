@@ -5,4 +5,5 @@
 /etc/cron.daily/apport
 /etc/default/apport
 /etc/init.d/apport
+/etc/init/apport.conf
 /etc/logrotate.d/apport

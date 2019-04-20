@@ -1,8 +1,0 @@
-#!/bin/bash
-RPM_INSTALL_PREFIX=
-export RPM_INSTALL_PREFIX
-if [ "$1" = 0 ] ; then
-	 cd /usr/lib/epson-backend/scripts/
-        ./inst-cups-post.sh deinstall
-        rm -f /usr/lib/epson-backend/setup
-fi

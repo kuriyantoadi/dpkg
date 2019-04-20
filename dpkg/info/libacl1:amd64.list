@@ -6,6 +6,6 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/libacl1
-/usr/share/doc/libacl1/changelog.Debian.gz
 /usr/share/doc/libacl1/copyright
+/usr/share/doc/libacl1/changelog.Debian.gz
 /lib/x86_64-linux-gnu/libacl.so.1

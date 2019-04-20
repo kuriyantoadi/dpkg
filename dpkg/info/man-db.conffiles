@@ -1,4 +1,3 @@
-/etc/apparmor.d/usr.bin.man
 /etc/cron.daily/man-db
 /etc/cron.weekly/man-db
 /etc/manpath.config

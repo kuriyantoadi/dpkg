@@ -1,4 +1,4 @@
-a372bb81afd9a336ce4b48b86f9c6e62  usr/bin/curl
-2e61937ad06d3e817d84468ca5d41261  usr/share/doc/curl/copyright
-563a09d285aedf39d48b832708134715  usr/share/man/man1/curl.1.gz
-a65206402c105310b0b8332eb8043512  usr/share/zsh/vendor-completions/_curl
+6f539542eaea8a4ca176d0a0ca342e7b  usr/bin/curl
+3f4cb3f3658c54248e1c991eef8bd23c  usr/share/doc/curl/copyright
+19627274899f3f4ba83431f88f65677f  usr/share/man/man1/curl.1.gz
+1055f81ce767126ba5bd78d3761b3ec6  usr/share/zsh/vendor-completions/_curl

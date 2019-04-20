@@ -1,9 +1,0 @@
-/etc
-/etc/cacti
-/etc/cron.d
-/etc/cron.d/cacti
-/etc/logrotate.d
-/etc/logrotate.d/cacti
-/var
-/var/log
-/var/log/cacti

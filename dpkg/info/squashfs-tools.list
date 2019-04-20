@@ -6,8 +6,8 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/squashfs-tools
-/usr/share/doc/squashfs-tools/changelog.Debian.gz
 /usr/share/doc/squashfs-tools/copyright
+/usr/share/doc/squashfs-tools/changelog.Debian.gz
 /usr/share/man
 /usr/share/man/man1
 /usr/share/man/man1/mksquashfs.1.gz

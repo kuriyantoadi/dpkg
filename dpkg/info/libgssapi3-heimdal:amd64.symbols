@@ -163,13 +163,11 @@ libgssapi.so.3 libgssapi3-heimdal #MINVER#
  gss_test_oid_set_member@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_unseal@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_unwrap@HEIMDAL_GSS_2.0 1.4.0+git20110226
- gss_unwrap_aead@HEIMDAL_GSS_2.0 1.7~git20160418
  gss_unwrap_iov@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_userok@HEIMDAL_GSS_2.0 1.5~pre2+git20110720
  gss_verify@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_verify_mic@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_wrap@HEIMDAL_GSS_2.0 1.4.0+git20110226
- gss_wrap_aead@HEIMDAL_GSS_2.0 1.7~git20160418
  gss_wrap_iov@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_wrap_iov_length@HEIMDAL_GSS_2.0 1.4.0+git20110226
  gss_wrap_size_limit@HEIMDAL_GSS_2.0 1.4.0+git20110226

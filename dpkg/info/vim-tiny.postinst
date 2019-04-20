@@ -5,8 +5,21 @@ pkg=vim-tiny
 variant=tiny
 mandir=/usr/share/man
 
-# add /usr/bin/vim.variant as alternative for /usr/bin/vim. Priority are
-# chosen accordingly to the principle: ``more features, higher priority''
+# two things to do:
+# 1) add /usr/bin/vim.variant as alternative for /usr/bin/vim. Priority are
+#    chosen accordingly to the principle: ``more features, higher priority''
+# 2) add /usr/bin/gvim as an alternative for gnome-text-editor for variants
+#    built with gnome support. Same principle for the priority above, with the
+#    additional constraint that priority should not be higher than gedit's
+
+add_gnome_alternative () {
+  if [ -f /usr/bin/gvim ]; then
+    update-alternatives --install /usr/bin/gnome-text-editor \
+      gnome-text-editor /usr/bin/vim.$variant $1 \
+      --slave $mandir/man1/gnome-text-editor.1.gz gnome-text-editor.1.gz \
+              $mandir/man1/vim.1.gz
+  fi
+}
 
 add_variant_alternative () {
   if [ "$variant" != "tiny" ]; then
@@ -29,7 +42,7 @@ add_variant_alternative () {
               $mandir/man1/vim.1.gz
   done
   case "$variant" in
-    gtk|gtk3|athena) # gui enabled variants
+    gtk*|gtk3*|gnome*|athena*) # gui enabled variants
       add_gui_variant_alternative $1
       ;;
   esac
@@ -43,7 +56,7 @@ add_gui_variant_alternative () {
 
 case "$pkg" in
   vim-tiny)
-    add_variant_alternative 15
+    add_variant_alternative 10
     ;;
   vim)
     add_variant_alternative 30
@@ -54,11 +67,21 @@ case "$pkg" in
   vim-gtk|vim-gtk3|vim-athena)
     add_variant_alternative 50
     ;;
+  vim-gnome) # gnome enabled variant
+    add_variant_alternative 60
+    add_gnome_alternative 45
+    ;;
+  vim-nox-py2)
+    add_variant_alternative 39
+    ;;
+  vim-gtk-py2|vim-gtk3-py2|vim-athena-py2)
+    add_variant_alternative 49
+    ;;
+  vim-gnome-py2) # gnome enabled variant
+    add_variant_alternative 59
+    add_gnome_alternative 44
 esac
 
-# Automatically added by dh_installdeb/11.1.6ubuntu1
-dpkg-maintscript-helper symlink_to_dir /usr/share/doc/vim-tiny vim-common 2:8.0.1451-1\~ vim-tiny -- "$@"
-# End automatically added section
 
 
 exit 0

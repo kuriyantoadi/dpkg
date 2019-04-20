@@ -1,8 +1,8 @@
-66c59f7ad13dc09ad7a8f1bdbfde3b4e  bin/setupcon
-636f20e182b30800767913dc3ffa0555  usr/bin/ckbcomp
-3c0105186ad0729a1dee992c67c0ce8d  usr/share/bug/console-setup/control
+c40301b08c2fa77397a47597d06f920f  bin/setupcon
+e864595c2aec718e1277a87be1f01d16  usr/bin/ckbcomp
+d87c59c15374e115d4f4de8a9cf0cd23  usr/share/bug/console-setup/control
 20405c5d168d636155a5627154b22c27  usr/share/console-setup/console-setup
 d3d1fa5caf215aefe1f690327f8f4be4  usr/share/console-setup/pc105.tree
 ba7e3047d19bc2e75545a8d585167403  usr/share/man/man1/ckbcomp.1.gz
-abd9d5a5ea5676c71d73b843137808c6  usr/share/man/man1/setupcon.1.gz
-ef5a2321e0782119b3fab6a546856807  usr/share/man/man5/console-setup.5.gz
+b6fb22e4ef3e84cde1ed8ab325d1c701  usr/share/man/man1/setupcon.1.gz
+ee3bc44b7034897091c252a7f63342ba  usr/share/man/man5/console-setup.5.gz

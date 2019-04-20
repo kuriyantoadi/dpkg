@@ -4,7 +4,7 @@ libapparmor.so.1 libapparmor1 #MINVER#
  APPARMOR_1.1@APPARMOR_1.1 2.6~devel
  APPARMOR_2.10@APPARMOR_2.10 2.10
  APPARMOR_2.11@APPARMOR_2.11 2.10.95
- APPARMOR_2.9@APPARMOR_2.9 2.8.94
+ APPARMOR_2.9@APPARMOR_2.9 2.8.94-0ubuntu1
  IMMUNIX_1.0@IMMUNIX_1.0 2.6~devel
  PRIVATE@PRIVATE 2.10
  _aa_autoclose@PRIVATE 2.10
@@ -51,8 +51,8 @@ libapparmor.so.1 libapparmor1 #MINVER#
  aa_policy_cache_unref@APPARMOR_2.10 2.10
  aa_query_file_path@APPARMOR_2.10 2.10
  aa_query_file_path_len@APPARMOR_2.10 2.10
- aa_query_label@APPARMOR_1.1 2.8.94
- aa_query_label@APPARMOR_2.9 2.8.94
+ aa_query_label@APPARMOR_1.1 2.8.94-0ubuntu1
+ aa_query_label@APPARMOR_2.9 2.8.94-0ubuntu1
  aa_query_link_path@APPARMOR_2.10 2.10
  aa_query_link_path_len@APPARMOR_2.10 2.10
  aa_splitcon@APPARMOR_2.10 2.10

@@ -1,6 +1,6 @@
-#!/bin/sh
-
-set -e
+#!/bin/sh -e
+#
+#
 
 if [ "$1" = "purge" ]; then
 	# Remove lease database
@@ -16,7 +16,7 @@ if [ "$1" = "purge" ]; then
 
 fi
 
-# Automatically added by dh_apparmor/2.12-4ubuntu4
+# Automatically added by dh_apparmor
 if [ "$1" = "purge" ] && ! [ -e "/etc/apparmor.d/sbin.dhclient" ] ; then
     rm -f "/etc/apparmor.d/disable/sbin.dhclient" || true
     rm -f "/etc/apparmor.d/force-complain/sbin.dhclient" || true

@@ -18,6 +18,12 @@ Description: Prepare /etc/resolv.conf for dynamic updates?
  .
  The presence of resolvconf can affect the behavior of other programs,
  so it should not be left installed if unconfigured.
+Description-pt.UTF-8: Preparar /etc/resolv.conf para actualizações dinâmicas?
+ O pacote resolvconf contém a infraestrutura requerida para actualizar dinamicamente o ficheiro de configuração do resolver. Parte da infraestrutura necessária é uma ligação simbólica de /etc/resolv.conf para /run/resolvconf/resolv.conf. Se concordar, esta ligação será criada. O ficheiro /etc/resolv.conf existente será mantido como /etc/resolvconf/resolv.conf.d/original; será reposto se este pacote for removido.
+ .
+ Não aceitar esta opção irá prevenir futuras instalações de recriar a ligação simbólica e portanto o ficheiro de configuração do resolver não será dinamicamente actualizado. A actualização dinâmica pode então ser activada seguindo as instruções do ficheiro README.
+ .
+ A presença do resolvconf pode afectar o comportamento de outros programas, por isso não deve ser deixado instalado se não-configurado.
 
 Template: resolvconf/downup-interfaces
 Type: note

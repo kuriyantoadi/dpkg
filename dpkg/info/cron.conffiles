@@ -6,4 +6,5 @@
 /etc/crontab
 /etc/default/cron
 /etc/init.d/cron
+/etc/init/cron.conf
 /etc/pam.d/cron

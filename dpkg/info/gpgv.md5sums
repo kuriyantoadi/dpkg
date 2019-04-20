@@ -1,5 +1,4 @@
-4fdf362f0c5db99922e7b1bca6da530f  usr/bin/gpgv
-9a190c56f66287503d10b785cd8c38b8  usr/share/doc/gpgv/NEWS.Debian.gz
-aab392fdc89b81f6b3968b2fc448678b  usr/share/doc/gpgv/changelog.Debian.gz
-7dde6934f8caeeaac75a730ef1236553  usr/share/doc/gpgv/copyright
-df6ebfd3678cce1f286427cc3c86aa24  usr/share/man/man1/gpgv.1.gz
+78d1a4c12c93b22ed6836ca53d302c8d  usr/bin/gpgv
+2d716d46d2738d1bb4fcae9d50ea0829  usr/share/doc/gpgv/changelog.Debian.gz
+4191356404af54683c6cc754e005e821  usr/share/doc/gpgv/copyright
+c44edf22dd5bd0da28d9c954163abb7c  usr/share/man/man1/gpgv.1.gz

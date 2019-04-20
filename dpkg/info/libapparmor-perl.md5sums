@@ -1,5 +1,3 @@
-63e80d894bf99bd8e822d4736ee14b55  usr/lib/x86_64-linux-gnu/perl5/5.26/LibAppArmor.pm
-f8c0bd6bb657e2ad0ff755c76f111472  usr/lib/x86_64-linux-gnu/perl5/5.26/auto/LibAppArmor/LibAppArmor.so
-4e4447150fa549ca1cc840181ddb38b4  usr/share/doc/libapparmor-perl/copyright
-96f7640cb5d571c6767cb408253fb66e  usr/share/doc/libapparmor-perl/examples/example.pl
-458837d4ffac38ee205bc7c64c8be24c  usr/share/lintian/overrides/libapparmor-perl
+b5cea83291d52405f0b51c38bf7a12df  usr/lib/x86_64-linux-gnu/perl5/5.22/LibAppArmor.pm
+ac4646ecae85df654b49a363fd14bbd6  usr/lib/x86_64-linux-gnu/perl5/5.22/auto/LibAppArmor/LibAppArmor.so
+054bfa053b82896a5f4a0ea0224e6cbc  usr/share/doc/libapparmor-perl/copyright

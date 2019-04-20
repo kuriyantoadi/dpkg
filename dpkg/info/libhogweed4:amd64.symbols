@@ -60,7 +60,6 @@ libhogweed.so.4 libhogweed4 #MINVER#
  _nettle_rsa_check_size@HOGWEED_4 0
  _nettle_rsa_unblind@HOGWEED_4 0
  _nettle_rsa_verify@HOGWEED_4 0
- _nettle_rsa_verify_recover@HOGWEED_4 3.4~
  _nettle_sec_add_1@HOGWEED_4 0
  _nettle_sec_sub_1@HOGWEED_4 0
  _nettle_sec_tabselect@HOGWEED_4 0
@@ -134,11 +133,6 @@ libhogweed.so.4 libhogweed4 #MINVER#
  nettle_ed25519_sha512_public_key@HOGWEED_4 0
  nettle_ed25519_sha512_sign@HOGWEED_4 0
  nettle_ed25519_sha512_verify@HOGWEED_4 0
- nettle_get_secp_192r1@HOGWEED_4 3.4~
- nettle_get_secp_224r1@HOGWEED_4 3.4~
- nettle_get_secp_256r1@HOGWEED_4 3.4~
- nettle_get_secp_384r1@HOGWEED_4 3.4~
- nettle_get_secp_521r1@HOGWEED_4 3.4~
  nettle_mpz_get_str_256@HOGWEED_4 0
  nettle_mpz_init_set_str_256_s@HOGWEED_4 0
  nettle_mpz_init_set_str_256_u@HOGWEED_4 0
@@ -176,9 +170,6 @@ libhogweed.so.4 libhogweed4 #MINVER#
  nettle_pkcs1_rsa_sha256_encode_digest@HOGWEED_4 0
  nettle_pkcs1_rsa_sha512_encode@HOGWEED_4 0
  nettle_pkcs1_rsa_sha512_encode_digest@HOGWEED_4 0
- nettle_pss_encode_mgf1@HOGWEED_4 3.4~
- nettle_pss_mgf1@HOGWEED_4 3.4~
- nettle_pss_verify_mgf1@HOGWEED_4 3.4~
  nettle_random_prime@HOGWEED_4 0
  nettle_rsa_compute_root@HOGWEED_4 0
  nettle_rsa_compute_root_tr@HOGWEED_4 3.2~
@@ -204,12 +195,6 @@ libhogweed.so.4 libhogweed4 #MINVER#
  nettle_rsa_private_key_from_der_iterator@HOGWEED_4 0
  nettle_rsa_private_key_init@HOGWEED_4 0
  nettle_rsa_private_key_prepare@HOGWEED_4 0
- nettle_rsa_pss_sha256_sign_digest_tr@HOGWEED_4 3.4~
- nettle_rsa_pss_sha256_verify_digest@HOGWEED_4 3.4~
- nettle_rsa_pss_sha384_sign_digest_tr@HOGWEED_4 3.4~
- nettle_rsa_pss_sha384_verify_digest@HOGWEED_4 3.4~
- nettle_rsa_pss_sha512_sign_digest_tr@HOGWEED_4 3.4~
- nettle_rsa_pss_sha512_verify_digest@HOGWEED_4 3.4~
  nettle_rsa_public_key_clear@HOGWEED_4 0
  nettle_rsa_public_key_from_der_iterator@HOGWEED_4 0
  nettle_rsa_public_key_init@HOGWEED_4 0

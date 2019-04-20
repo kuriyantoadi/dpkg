@@ -1,8 +1,8 @@
 /.
 /etc
-/etc/network
-/etc/protocols
 /etc/rpc
+/etc/protocols
+/etc/network
 /etc/services
 /usr
 /usr/share

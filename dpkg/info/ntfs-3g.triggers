@@ -1,1 +1,3 @@
-activate-noawait update-initramfs
+activate update-initramfs
+# Triggers added by dh_makeshlibs
+activate-noawait ldconfig

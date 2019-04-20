@@ -28,12 +28,10 @@ EMPTYID="d41d8cd98f00b204e9800998ecf8427e"
 
 generate_id() {
         if which uuidgen >/dev/null 2>&1; then
-                MY_HOSTID=`uuidgen -r | tr -d -`
-        elif test -r /proc/sys/kernel/random/uuid; then
-                MY_HOSTID=`tr -d - < /proc/sys/kernel/random/uuid`
+                MY_HOSTID=`uuidgen | tr -d -`
         else
-                MY_HOSTID=`od -x -An -N16 /dev/urandom | tr -d ' '`
-        fi;
+	        MY_HOSTID=`dd if=/dev/urandom bs=1k count=1 2>/dev/null | md5sum | sed 's/  -//'''`
+        fi
 }
 
 # Select a random day to submit on, to spread the load over time, unless it is already set.

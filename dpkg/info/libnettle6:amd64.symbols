@@ -162,8 +162,6 @@ libnettle.so.6 libnettle6 #MINVER#
  nettle_ccm_encrypt_message@NETTLE_6 0
  nettle_ccm_set_nonce@NETTLE_6 0
  nettle_ccm_update@NETTLE_6 0
- nettle_cfb_decrypt@NETTLE_6 3.4~
- nettle_cfb_encrypt@NETTLE_6 3.4~
  nettle_chacha_crypt@NETTLE_6 0
  nettle_chacha_poly1305@NETTLE_6 0
  nettle_chacha_poly1305_decrypt@NETTLE_6 0
@@ -245,17 +243,11 @@ libnettle.so.6 libnettle6 #MINVER#
  nettle_gcm_set_iv@NETTLE_6 0
  nettle_gcm_set_key@NETTLE_6 0
  nettle_gcm_update@NETTLE_6 0
- nettle_get_aeads@NETTLE_6 3.4~
- nettle_get_armors@NETTLE_6 3.4~
- nettle_get_ciphers@NETTLE_6 3.4~
- nettle_get_hashes@NETTLE_6 3.4~
  nettle_gosthash94@NETTLE_6 0
  nettle_gosthash94_digest@NETTLE_6 0
  nettle_gosthash94_init@NETTLE_6 0
  nettle_gosthash94_update@NETTLE_6 0
  nettle_hashes@NETTLE_6 0
- nettle_hkdf_expand@NETTLE_6 3.4~
- nettle_hkdf_extract@NETTLE_6 3.4~
  nettle_hmac_digest@NETTLE_6 0
  nettle_hmac_md5_digest@NETTLE_6 0
  nettle_hmac_md5_set_key@NETTLE_6 0
@@ -282,7 +274,6 @@ libnettle.so.6 libnettle6 #MINVER#
  nettle_knuth_lfib_get_array@NETTLE_6 0
  nettle_knuth_lfib_init@NETTLE_6 0
  nettle_knuth_lfib_random@NETTLE_6 0
- nettle_lookup_hash@NETTLE_6 3.4~
  nettle_md2@NETTLE_6 0
  nettle_md2_digest@NETTLE_6 0
  nettle_md2_init@NETTLE_6 0
@@ -295,7 +286,6 @@ libnettle.so.6 libnettle6 #MINVER#
  nettle_md5_digest@NETTLE_6 0
  nettle_md5_init@NETTLE_6 0
  nettle_md5_update@NETTLE_6 0
- nettle_memeql_sec@NETTLE_6 3.3~
  nettle_memxor3@NETTLE_6 0
  nettle_memxor@NETTLE_6 0
  nettle_openssl_des_cbc_cksum@NETTLE_6 0

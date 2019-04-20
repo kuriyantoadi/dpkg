@@ -1,7 +1,0 @@
-#!/bin/bash
-RPM_INSTALL_PREFIX=
-export RPM_INSTALL_PREFIX
-/sbin/ldconfig
-rm -f /usr/bin/epson-printer-utility
-rm -f /etc/udev/rules.d/79-udev-epson.rules
-rm -f /opt/epson-printer-utility/lib/*

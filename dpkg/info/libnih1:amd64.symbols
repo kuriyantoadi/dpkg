@@ -1,10 +1,10 @@
 libnih.so.1 libnih1 #MINVER#
- LIBNIH_1.0.1@LIBNIH_1.0.1 1.0.3-6ubuntu2
+ LIBNIH_1.0.1@LIBNIH_1.0.1 1.0.3-4.3ubuntu1
  LIBNIH_1_0@LIBNIH_1_0 1.0.0
- __nih_abort_msg@LIBNIH_1.0.1 1.0.3-6ubuntu2
- __nih_free@LIBNIH_1.0.1 1.0.3-6ubuntu2
- __nih_malloc@LIBNIH_1.0.1 1.0.3-6ubuntu2
- __nih_realloc@LIBNIH_1.0.1 1.0.3-6ubuntu2
+ __nih_abort_msg@LIBNIH_1.0.1 1.0.3-4.3ubuntu1
+ __nih_free@LIBNIH_1.0.1 1.0.3-4.3ubuntu1
+ __nih_malloc@LIBNIH_1.0.1 1.0.3-4.3ubuntu1
+ __nih_realloc@LIBNIH_1.0.1 1.0.3-4.3ubuntu1
  _nih_discard_local@LIBNIH_1_0 1.0.0
  _nih_error_raise@LIBNIH_1_0 1.0.0
  _nih_error_raise_error@LIBNIH_1_0 1.0.0

@@ -28,5 +28,4 @@
 /etc/console-setup/remap.inc
 /etc/console-setup/vtrgb
 /etc/console-setup/vtrgb.vga
-/etc/init.d/console-setup.sh
-/etc/init.d/keyboard-setup.sh
+/etc/init/setvtrgb.conf

@@ -38,7 +38,21 @@ case "$1" in
         ;;
 esac
 
-# Automatically added by dh_installinit/11.1.6ubuntu2
+# Automatically added by dh_systemd_enable
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask ufw.service >/dev/null
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge ufw.service >/dev/null
+		deb-systemd-helper unmask ufw.service >/dev/null
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installinit
 if [ "$1" = "purge" ] ; then
 	update-rc.d ufw remove >/dev/null
 fi
@@ -50,30 +64,10 @@ if [ -d /run/systemd/system ] ; then
 	systemctl --system daemon-reload >/dev/null || true
 fi
 # End automatically added section
-# Automatically added by dh_installdeb/11.1.6ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/ufw 0.34-1~ ufw -- "$@"
-# End automatically added section
-# Automatically added by dh_installdeb/11.1.6ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/init/ufw.conf 0.35-5~ ufw -- "$@"
-# End automatically added section
-# Automatically added by dh_installdebconf/11.1.6ubuntu2
+# Automatically added by dh_installdebconf
 if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
 	. /usr/share/debconf/confmodule
 	db_purge
-fi
-# End automatically added section
-# Automatically added by dh_systemd_enable/11.1.6ubuntu2
-if [ "$1" = "remove" ]; then
-	if [ -x "/usr/bin/deb-systemd-helper" ]; then
-		deb-systemd-helper mask 'ufw.service' >/dev/null || true
-	fi
-fi
-
-if [ "$1" = "purge" ]; then
-	if [ -x "/usr/bin/deb-systemd-helper" ]; then
-		deb-systemd-helper purge 'ufw.service' >/dev/null || true
-		deb-systemd-helper unmask 'ufw.service' >/dev/null || true
-	fi
 fi
 # End automatically added section
 

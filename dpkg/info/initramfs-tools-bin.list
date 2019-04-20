@@ -8,6 +8,6 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/initramfs-tools-bin
-/usr/share/doc/initramfs-tools-bin/NEWS.Debian.gz
-/usr/share/doc/initramfs-tools-bin/changelog.gz
 /usr/share/doc/initramfs-tools-bin/copyright
+/usr/share/doc/initramfs-tools-bin/changelog.gz
+/usr/share/doc/initramfs-tools-bin/NEWS.Debian.gz

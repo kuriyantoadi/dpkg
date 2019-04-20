@@ -1,7 +1,7 @@
-3dd534fc7f982d3d79391e8c26bcf023  bin/nc.openbsd
+562d2661804f6ad900827bbfeb8c6350  bin/nc.openbsd
 e3938eae807750018b6e385baf12506d  usr/share/doc/netcat-openbsd/README.Debian
-f1951c1697c5f3cc7488e72286230a8e  usr/share/doc/netcat-openbsd/changelog.Debian.gz
-f39e60ae4ea9fdb559c833be2e59de99  usr/share/doc/netcat-openbsd/copyright
+09e07e0f037053aeaf16930367f91baa  usr/share/doc/netcat-openbsd/changelog.Debian.gz
+ee6bbaacb5db5f2973818f0902c3ae6f  usr/share/doc/netcat-openbsd/copyright
 5413b15cbbc1fb54ef472f86e7bc78da  usr/share/doc/netcat-openbsd/examples/README
 544c19da387112fa40ca7926e77aeb1b  usr/share/doc/netcat-openbsd/examples/alta
 6f15c855fff0cdeeb8c08ab7e2c28b60  usr/share/doc/netcat-openbsd/examples/bsh
@@ -15,4 +15,4 @@ fa679307322bb3f379877b19afd116ac  usr/share/doc/netcat-openbsd/examples/ncp
 3029178f20ec3107c64d43d383fc8d6c  usr/share/doc/netcat-openbsd/examples/webproxy.gz
 eb3bcb13d36395d0b09a3ef66b2ca2ff  usr/share/doc/netcat-openbsd/examples/webrelay
 f1570f4c5cc27216ad800e7bf023c4d3  usr/share/doc/netcat-openbsd/examples/websearch
-c2b1e3f57f258c0a5d9b8fed4433d804  usr/share/man/man1/nc_openbsd.1.gz
+35d59f7099bb634b15b045e5a4bc77fc  usr/share/man/man1/nc_openbsd.1.gz

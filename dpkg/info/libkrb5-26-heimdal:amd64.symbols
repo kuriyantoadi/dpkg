@@ -1,20 +1,15 @@
 libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  HEIMDAL_KRB5_2.0@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- _krb5_AES_SHA1_string_to_default_iterator@HEIMDAL_KRB5_2.0 1.7~git20161112
- _krb5_AES_SHA2_string_to_default_iterator@HEIMDAL_KRB5_2.0 1.7~git20161112
+ _krb5_AES_string_to_default_iterator@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_build_authenticator@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_crc_init_table@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_crc_update@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_dh_group_ok@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- _krb5_enctype_requires_random_salt@HEIMDAL_KRB5_2.0 1.7~git20161112
  _krb5_expand_default_cc_name@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_expand_path_tokensv@HEIMDAL_KRB5_2.0 1.6~git20131117
  _krb5_fast_armor_key@HEIMDAL_KRB5_2.0 1.6~git20120311
  _krb5_fast_cf2@HEIMDAL_KRB5_2.0 1.6~git20120311
- _krb5_find_capath@HEIMDAL_KRB5_2.0 1.7~git20161112
- _krb5_free_capath@HEIMDAL_KRB5_2.0 1.7~git20161112
  _krb5_get_host_realm_int@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- _krb5_get_int64@HEIMDAL_KRB5_2.0 1.7~git20160418
  _krb5_get_int@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_get_krbtgt@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  _krb5_n_fold@HEIMDAL_KRB5_2.0 1.4.0+git20110226
@@ -402,7 +397,6 @@ libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  krb5_get_init_creds_opt_set_addressless@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_get_init_creds_opt_set_anonymous@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_get_init_creds_opt_set_canonicalize@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- krb5_get_init_creds_opt_set_change_password_prompt@HEIMDAL_KRB5_2.0 1.7~git20161112
  krb5_get_init_creds_opt_set_default_flags@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_get_init_creds_opt_set_etype_list@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_get_init_creds_opt_set_forwardable@HEIMDAL_KRB5_2.0 1.4.0+git20110226
@@ -617,7 +611,6 @@ libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  krb5_ret_data@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_ret_int16@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_ret_int32@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- krb5_ret_int64@HEIMDAL_KRB5_2.0 1.7~git20160418
  krb5_ret_int8@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_ret_keyblock@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_ret_principal@HEIMDAL_KRB5_2.0 1.4.0+git20110226
@@ -627,7 +620,6 @@ libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  krb5_ret_times@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_ret_uint16@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_ret_uint32@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- krb5_ret_uint64@HEIMDAL_KRB5_2.0 1.7~git20160418
  krb5_ret_uint8@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_salttype_to_string@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_scc_ops@HEIMDAL_KRB5_2.0 1.4.0+git20110226
@@ -685,7 +677,6 @@ libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  krb5_storage_set_eof_code@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_storage_set_flags@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_storage_set_max_alloc@HEIMDAL_KRB5_2.0 1.5~pre2+git20110720
- krb5_storage_stdio_from_fd@HEIMDAL_KRB5_2.0 7.5.0.dfsg.1
  krb5_storage_to_data@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_storage_truncate@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_storage_write@HEIMDAL_KRB5_2.0 1.4.0+git20110226
@@ -697,7 +688,6 @@ libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  krb5_store_data@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_store_int16@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_store_int32@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- krb5_store_int64@HEIMDAL_KRB5_2.0 1.7~git20160418
  krb5_store_int8@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_store_keyblock@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_store_principal@HEIMDAL_KRB5_2.0 1.4.0+git20110226
@@ -707,7 +697,6 @@ libkrb5.so.26 libkrb5-26-heimdal #MINVER#
  krb5_store_times@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_store_uint16@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_store_uint32@HEIMDAL_KRB5_2.0 1.4.0+git20110226
- krb5_store_uint64@HEIMDAL_KRB5_2.0 1.7~git20160418
  krb5_store_uint8@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_string_to_deltat@HEIMDAL_KRB5_2.0 1.4.0+git20110226
  krb5_string_to_enctype@HEIMDAL_KRB5_2.0 1.4.0+git20110226

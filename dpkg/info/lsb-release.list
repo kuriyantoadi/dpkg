@@ -12,8 +12,8 @@
 /usr/share/bug/lsb-release
 /usr/share/doc
 /usr/share/doc/lsb-release
-/usr/share/doc/lsb-release/README.Debian
 /usr/share/doc/lsb-release/changelog.gz
+/usr/share/doc/lsb-release/README.Debian
 /usr/share/doc/lsb-release/copyright
 /usr/share/man
 /usr/share/man/man1

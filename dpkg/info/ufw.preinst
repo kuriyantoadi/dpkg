@@ -19,10 +19,4 @@ if [ "$1" = "upgrade" ] && [ -f /etc/ufw/ufw.conf ]; then
     fi
 fi
 
-# Automatically added by dh_installdeb/11.1.6ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/init/ufw.conf 0.35-5~ ufw -- "$@"
-# End automatically added section
-# Automatically added by dh_installdeb/11.1.6ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/ufw 0.34-1~ ufw -- "$@"
-# End automatically added section
 

@@ -1,9 +1,0 @@
-auto
-/usr/bin/jexec
-jexec-binfmt
-/usr/share/binfmts/jar
-
-/usr/lib/jvm/java-11-openjdk-amd64/lib/jexec
-1101
-/usr/lib/jvm/java-11-openjdk-amd64/lib/jar.binfmt
-

@@ -17,9 +17,6 @@ libgpg-error.so.0 libgpg-error0 #MINVER#
  gpg_strerror_r@GPG_ERROR_1.0 1.14
  gpg_strsource@GPG_ERROR_1.0 1.14
  gpgrt_asprintf@GPG_ERROR_1.0 1.14
- gpgrt_b64dec_finish@GPG_ERROR_1.0 1.27
- gpgrt_b64dec_proc@GPG_ERROR_1.0 1.27
- gpgrt_b64dec_start@GPG_ERROR_1.0 1.27
  gpgrt_bsprintf@GPG_ERROR_1.0 1.14
  gpgrt_check_version@GPG_ERROR_1.0 1.14
  gpgrt_clearerr@GPG_ERROR_1.0 1.14
@@ -62,7 +59,6 @@ libgpg-error.so.0 libgpg-error0 #MINVER#
  gpgrt_funlockfile@GPG_ERROR_1.0 1.14
  gpgrt_fwrite@GPG_ERROR_1.0 1.14
  gpgrt_get_nonblock@GPG_ERROR_1.0 1.21
- gpgrt_get_syscall_clamp@GPG_ERROR_1.0 1.25
  gpgrt_getline@GPG_ERROR_1.0 1.14
  gpgrt_lock_destroy@GPG_ERROR_1.0 1.14
  gpgrt_lock_init@GPG_ERROR_1.0 1.14
@@ -100,4 +96,4 @@ libgpg-error.so.0 libgpg-error0 #MINVER#
  gpgrt_write@GPG_ERROR_1.0 1.14
  gpgrt_write_hexstring@GPG_ERROR_1.0 1.14
  gpgrt_write_sanitized@GPG_ERROR_1.0 1.14
- gpgrt_yield@GPG_ERROR_1.0 1.25
+ gpgrt_yield@GPG_ERROR_1.0 1.14

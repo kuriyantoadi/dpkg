@@ -81,15 +81,9 @@ libasn1.so.8 libasn1-8-heimdal #MINVER#
  asn1_oid_id_ecPublicKey@HEIMDAL_ASN1_1.0 1.4.0+git20110226
  asn1_oid_id_ec_group_secp160r1@HEIMDAL_ASN1_1.0 1.4.0+git20110226
  asn1_oid_id_ec_group_secp160r2@HEIMDAL_ASN1_1.0 1.4.0+git20110226
- asn1_oid_id_ec_group_secp224r1@HEIMDAL_ASN1_1.0 1.7~git20160418
  asn1_oid_id_ec_group_secp256r1@HEIMDAL_ASN1_1.0 1.4.0+git20110226
- asn1_oid_id_ec_group_secp384r1@HEIMDAL_ASN1_1.0 1.7~git20160418
- asn1_oid_id_ec_group_secp521r1@HEIMDAL_ASN1_1.0 1.7~git20160418
  asn1_oid_id_ecdsa_with_SHA1@HEIMDAL_ASN1_1.0 1.4.0+git20110226
- asn1_oid_id_ecdsa_with_SHA224@HEIMDAL_ASN1_1.0 1.7~git20160418
  asn1_oid_id_ecdsa_with_SHA256@HEIMDAL_ASN1_1.0 1.4.0+git20110226
- asn1_oid_id_ecdsa_with_SHA384@HEIMDAL_ASN1_1.0 1.7~git20160418
- asn1_oid_id_ecdsa_with_SHA512@HEIMDAL_ASN1_1.0 1.7~git20160418
  asn1_oid_id_heim_rsa_pkcs1_x509@HEIMDAL_ASN1_1.0 1.4.0+git20110226
  asn1_oid_id_ms_cert_enroll_domaincontroller@HEIMDAL_ASN1_1.0 1.4.0+git20110226
  asn1_oid_id_ms_client_authentication@HEIMDAL_ASN1_1.0 1.4.0+git20110226

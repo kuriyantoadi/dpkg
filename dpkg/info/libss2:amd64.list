@@ -7,5 +7,5 @@
 /usr/share/doc
 /usr/share/doc/libss2
 /usr/share/doc/libss2/copyright
-/lib/x86_64-linux-gnu/libss.so.2
 /usr/share/doc/libss2/changelog.Debian.gz
+/lib/x86_64-linux-gnu/libss.so.2

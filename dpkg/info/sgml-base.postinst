@@ -88,10 +88,10 @@ if [ "$1" = configure ]; then
 /usr/local/share 2775 root staff
 /usr/local/share/sgml 2775 root staff
 /usr/local/share/sgml/declaration 2775 root staff
-/usr/local/share/sgml/dtd 2775 root staff
+/usr/local/share/sgml/stylesheet 2775 root staff
 /usr/local/share/sgml/entities 2775 root staff
 /usr/local/share/sgml/misc 2775 root staff
-/usr/local/share/sgml/stylesheet 2775 root staff
+/usr/local/share/sgml/dtd 2775 root staff
 DATA
 fi
 # End automatically added section

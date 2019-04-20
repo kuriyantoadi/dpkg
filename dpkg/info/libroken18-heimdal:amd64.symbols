@@ -2,8 +2,6 @@ libroken.so.18 libroken18-heimdal #MINVER#
  HEIMDAL_ROKEN_1.0@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  arg_printusage@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  arg_printusage_i18n@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- base64_decode@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- base64_encode@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  cgetcap@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  cgetclose@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  cgetmatch@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
@@ -35,7 +33,6 @@ libroken.so.18 libroken18-heimdal #MINVER#
  rk_base64_encode@HEIMDAL_ROKEN_1.0 1.7~git20150920
  rk_bswap16@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_bswap32@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- rk_bswap64@HEIMDAL_ROKEN_1.0 1.7~git20160418
  rk_cgetent@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_cgetstr@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_cloexec@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
@@ -59,8 +56,6 @@ libroken.so.18 libroken18-heimdal #MINVER#
  rk_ewrite@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_free_environment@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_freehostent@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- rk_getauxv@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_getauxval@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
  rk_getipnodebyaddr@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_getipnodebyname@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_getprogname@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
@@ -69,23 +64,15 @@ libroken.so.18 libroken18-heimdal #MINVER#
  rk_hex_decode@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_hex_encode@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_hostent_find_fqdn@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- rk_injectauxv@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
  rk_memset_s@HEIMDAL_ROKEN_1.0 1.7~git20150920
  rk_mkdir@HEIMDAL_ROKEN_1.0 1.6~git20131117
- rk_parse_flags@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_parse_time@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_parse_units@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
  rk_pid_file_delete@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_pid_file_write@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_pidfile@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_pipe_execv@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- rk_print_flags_table@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_print_time_table@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_print_units_table@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
  rk_random_init@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_read_environment@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_realloc@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- rk_secure_getenv@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
  rk_setprogname@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_simple_execle@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_simple_execlp@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
@@ -127,11 +114,6 @@ libroken.so.18 libroken18-heimdal #MINVER#
  rk_timevalfix@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_timevalsub@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_undumpdata@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
- rk_unparse_flags@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_unparse_time@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_unparse_time_approx@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_unparse_units@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
- rk_unparse_units_approx@HEIMDAL_ROKEN_1.0 7.5.0.dfsg.1
  rk_unvis@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_vasnprintf@HEIMDAL_ROKEN_1.0 1.4.0+git20110226
  rk_vis@HEIMDAL_ROKEN_1.0 1.4.0+git20110226

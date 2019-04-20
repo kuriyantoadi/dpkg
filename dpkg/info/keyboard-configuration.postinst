@@ -37,6 +37,17 @@ keyboard_present () {
 	    ;;
     esac
 
+    [ -f /proc/bus/input/devices ] || return 0
+    kbdpattern="AT Set \|AT Translated Set\|AT Raw Set"
+    kbdpattern="$kbdpattern\|Atari Keyboard"
+    kbdpattern="$kbdpattern\|Amiga Keyboard"
+    kbdpattern="$kbdpattern\|HIL keyboard"
+    kbdpattern="$kbdpattern\|ADB keyboard"
+    kbdpattern="$kbdpattern\|Sun Type"
+    if grep -i "$kbdpattern" /proc/bus/input/devices >/dev/null; then
+	return 0
+    fi
+
     [ -d /sys/bus/usb/devices ] || return 0
     for d in /sys/bus/usb/devices/*:*; do
 	[ -d "$d" ] || continue
@@ -49,23 +60,6 @@ keyboard_present () {
 		;;
 	esac
     done
-
-    # For Bluetooth keyboards one has to check the class of the device
-    # -- it has to be 0x000540 or 0x002540.  I don't how to make the
-    # required test, so instead we test (unreliably) for a string
-    # bluetooth.*keyboard in /proc/bus/input/devices.
-
-    [ -f /proc/bus/input/devices ] || return 0
-    kbdpattern="AT Set \|AT Translated Set\|AT Raw Set"
-    kbdpattern="$kbdpattern\|Atari Keyboard"
-    kbdpattern="$kbdpattern\|Amiga Keyboard"
-    kbdpattern="$kbdpattern\|HIL keyboard"
-    kbdpattern="$kbdpattern\|ADB keyboard"
-    kbdpattern="$kbdpattern\|Sun Type"
-    kbdpattern="$kbdpattern\|bluetooth.*keyboard"
-    if grep -i "$kbdpattern" /proc/bus/input/devices >/dev/null; then
-	return 0
-    fi
 
     return 1
 }
@@ -133,16 +127,17 @@ elif keyboard_present; then
     if [ "$DISPLAY" ] && which setxkbmap >/dev/null; then
 	setxkbmap -option '' -model "$model" "$layout" "$variant" "$options" || true
 	# setting the font corrupts X
-	# setting up the keyboard breaks wayland
 	if type setupcon >/dev/null 2>&1; then
 	    setupcon --save-only
+	    setupcon --force -k
 	    cat >&2 <<EOF
 Your console font configuration will be updated the next time your system
 boots. If you want to update it now, run 'setupcon' from a virtual console.
 EOF
-	fi    else
+	fi
+    else
 	case "`uname`" in
-	    GNU)
+	    *GNU*)
 		[ ! -f /var/run/hurd-console.pid ] || kill `cat /var/run/hurd-console.pid`
 		;;
 	    *)
@@ -154,15 +149,30 @@ EOF
     fi
 fi
 
-if ! [ -d /lib/debian-installer.d ]; then
-    dpkg-maintscript-helper rm_conffile \
-                            /etc/init.d/keyboard-setup 1.138~ -- "$@"
-    dpkg-maintscript-helper rm_conffile \
-                            /etc/init.d/console-setup 1.138~ -- "$@"
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/keyboard-setup" ]; then
+		update-rc.d keyboard-setup start 49 S . >/dev/null || exit $?
+	fi
 fi
-
-# Automatically added by dh_installdeb/11.1.6ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/init/console-setup.conf 1.142ubuntu8~ keyboard-configuration -- "$@"
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/console-setup" ]; then
+		update-rc.d console-setup start 49 S . >/dev/null || exit $?
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installudev
+if [ "$1" = configure ]; then
+	if [ -e "/etc/udev/rules.d/85_keyboard-configuration.rules" ]; then
+		echo "Preserving user changes to /etc/udev/rules.d/85-keyboard-configuration.rules ..."
+		if [ -e "/etc/udev/rules.d/85-keyboard-configuration.rules" ]; then
+			mv -f "/etc/udev/rules.d/85-keyboard-configuration.rules" "/etc/udev/rules.d/85-keyboard-configuration.rules.dpkg-new"
+		fi
+		mv -f "/etc/udev/rules.d/85_keyboard-configuration.rules" "/etc/udev/rules.d/85-keyboard-configuration.rules"
+	fi
+fi
 # End automatically added section
 
 

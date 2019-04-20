@@ -1,5 +1,5 @@
-f34cb6abff56f684c721cb33e6271135  usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
-c6e59577f80eff240add64ddc8814dd8  usr/share/doc/libkrb5-3/README.Debian
-bcbde4438d8ea9c754394b0e9b3082bd  usr/share/doc/libkrb5-3/README.gz
-699c000bd0ea741649b75d44af8883be  usr/share/doc/libkrb5-3/copyright
-b249491ce885ff8013facc9cac4f3714  usr/share/lintian/overrides/libkrb5-3
+da8a5f4662c8357260b27d93d1ab7743  usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+189bef38ca2ee0edca7c0155fbff1932  usr/share/doc/libkrb5-3/README.Debian
+ef10e1a2d34ab809a7cbba81a59d4aae  usr/share/doc/libkrb5-3/README.gz
+32f68b601c56914ba7cbf3285450b85d  usr/share/doc/libkrb5-3/copyright
+0a0210fa81572d81c7f9ed6b0e07fe46  usr/share/lintian/overrides/libkrb5-3

@@ -65,9 +65,6 @@ case "$1" in
 	# ;;
 esac
 
-# Automatically added by dh_installdeb/11.1.6ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/init/resolvconf.conf 1.79ubuntu6~ -- "$@"
-# End automatically added section
 
 
 exit 0

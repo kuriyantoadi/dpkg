@@ -28,10 +28,10 @@ fi
 		rmdir "$dir" 2>/dev/null || true
 	done
 ) << DATA
-/usr/local/share/sgml/stylesheet
+/usr/local/share/sgml/dtd
 /usr/local/share/sgml/misc
 /usr/local/share/sgml/entities
-/usr/local/share/sgml/dtd
+/usr/local/share/sgml/stylesheet
 /usr/local/share/sgml/declaration
 /usr/local/share/sgml
 DATA

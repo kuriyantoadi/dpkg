@@ -6,6 +6,6 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/liblz4-1
-/usr/share/doc/liblz4-1/changelog.Debian.gz
 /usr/share/doc/liblz4-1/copyright
+/usr/share/doc/liblz4-1/changelog.Debian.gz
 /usr/lib/x86_64-linux-gnu/liblz4.so.1

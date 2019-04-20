@@ -21,15 +21,58 @@ Description-fr.UTF-8: Faut-il automatiquement télécharger et installer les mis
  Il est important de mettre régulièrement son système à jour pour maintenir un haut niveau de sécurité. Par défaut, les mises à jour doivent être appliquées manuellement à l'aide d'un outil de gestion de paquets. Autrement, vous pouvez choisir d'automatiser ce processus de téléchargement et d'installation des mises à jour de sécurité.
 Description-it.UTF-8: Scaricare e installare automaticamente gli aggiornamenti?
  La regolare applicazione degli aggiornamenti è una pratica importante per mantenere in sicurezza il sistema. Normalmente gli aggiornamenti devono essere installati manualmente usando gli strumenti di gestione dei pacchetti; in alternativa è possibile su questo sistema scaricare e installare automaticamente gli aggiornamenti importanti.
-Description-ja.UTF-8: 自動的に安定版の更新をダウンロードしてインストールしますか?
- 更新の適用を頻繁に実施するのは、システムを安全に保つために重要なことです。標準の状態では、更新の適用はパッケージ管理ツールを使って手動で行う必要があります。別のやり方として、セキュリティ更新を自動的にダウンロードしてインストールするよう、このシステムを設定するようにもできます。
 Description-nl.UTF-8: Updates uit 'stable' automatisch ophalen en installeren?
  Regelmatig updates installeren is een belangrijk onderdeel van de beveiliging van systemen. Standaard moeten updates handmatig worden toegepast met een van de hulpprogramma's voor pakketbeheer. U kunt er ook voor kiezen om op dit systeem belangrijke updates automatisch te laten ophalen en installeren.
 Description-pt.UTF-8: Transferir e instalar automaticamente actualizações estáveis?
  Aplicar actualizações regularmente é uma parte importante para manter os sistemas seguros. Por regra, as actualizações precisam de ser aplicadas manualmente usando ferramentas de gestão de pacotes. Em alternativa, você pode escolher ter este sistema a descarregar e instalar automaticamente as actualizações importantes.
-Description-pt_BR.UTF-8: Baixar e instalar atualizações estáveis automaticamente?
- Aplicar atualizações com frequência é uma parte importante de manter os sistemas seguros. Por padrão, as atualizações precisam ser aplicadas manualmente usando ferramentas de gerenciamento de pacotes. Alternativamente, você pode escolher que esse sistema baixe e instale automaticamente as atualizações importantes.
 Description-ru.UTF-8: Скачивать и устанавливать обновления стабильного выпуска автоматически?
  Регулярная установка обновлений является важной частью обеспечения безопасности системы. По умолчанию, обновления нужно устанавливать вручную с помощью инструментов управления пакетами. Но сейчас можно указать, чтобы система скачивала и устанавливала важные обновления автоматически.
-Description-sv.UTF-8: Automatiskt ladda ner och installera stabila uppdateringar?
- Tillämpa uppdateringar på en frekvent basis är en viktig del för att hålla system säkra. Som standard, behöver uppdateringar appliceras manuellt med hjälp av pakethanteringsverktyg. Alternativt kan du välja att detta system automatiskt hämtar och installerar viktiga uppdateringar.
+
+Template: unattended-upgrades/origins_pattern
+Type: string
+Default: "origin=Debian,codename=${distro_codename},label=Debian-Security";
+Description: Origins-Pattern that packages must match to be upgraded:
+ Please specify a value for the unattended-upgrades Origins-Pattern.
+ .
+ A package will be upgraded only if its metadata values match all the supplied
+ keywords in the origin line.
+Description-ca.UTF-8: Patrons de les fonts de paquets («Origins-Pattern») que han de verificar els paquets a actualitzar:
+ Especificau el valor dels patrons de les fonts de paquets («Origins-Pattern») per a les actualitzacions desateses.
+ .
+ Un paquet s'actualitzarà només si els seus valors de metadades coincideixen amb totes les paraules clau subministrades en la línia d'origen.
+Description-cs.UTF-8: Vzor původu, kterému musí balíčky odpovídat, aby byly aktualizovány:
+ Zadejte prosím hodnotu pro Vzor původu u bezobslužných aktualizací.
+ .
+ Balíček se bude aktualizovat pouze pokud jeho hodnoty metadat odpovídají všem zadaným klíčovým slovům na řádku s původem.
+Description-da.UTF-8: Origins-Pattern som pakker skal matche for at blive opgraderet:
+ Angiv venligst en værdi for unattended-upgrades Origins-Pattern.
+ .
+ En pakke vil kun blive opgraderet hvis dens metadataværdier matcher alle de angivne nøgleord i origin-linjen.
+Description-de.UTF-8: Ursprungsmuster, zu dem Pakete passen müssen, damit ein Upgrade von ihnen durchgeführt wird:
+ Geben Sie bitte einen Wert für das Unattended-Upgrades-Ursprungsmuster an.
+ .
+ Es wird nur dann ein Upgrade eines Pakets durchgeführt, falls dessen Metadaten zu allen angegebenen Schlüsselworten in der Urpsrungszeile passen.
+Description-eu.UTF-8: Jatorriko eredua (bertsio-berrituko diren paketeekin bat etortzeko):
+ Galdetu gabe bertsio-berrituko diren 'Jatorriko eredua'ren balioa zehaztu.
+ .
+ Pakete bat bertsio-berrituko da baldin eta bere meta-datuen balioak emandako jatorriaren lerroko gako-hitz guztiekin bat etortzen bada.
+Description-fr.UTF-8: Motif « Origin-Pattern » auquel les paquets doivent correspondre pour être mis à jour :
+ Veuillez indiquer une valeur pour le motif de correspondance « Origin-Pattern » pour unattended-upgrades.
+ .
+ Un paquet sera mis à jour uniquement si ses métadonnées correspondent à tous les mots clés indiqués ici.
+Description-it.UTF-8: Per essere aggiornati i pacchetti devono corrispondere a Origins-Pattern:
+ Indicare il valore di Origins-Pattern per unattended-upgrades.
+ .
+ Un pacchetto sarà aggiornato solo se i valori dei suoi metadati corrispondono con tutte le parole chiave nella riga origine.
+Description-nl.UTF-8: Origins-Pattern (origine-patroon) waaraan pakketten moeten beantwoorden om opgewaardeerd te worden:
+ Geef een waarde op voor Origins-Pattern van unattended-upgrades.
+ .
+ Een pakket zal enkel opgewaardeerd worden als de waarden van zijn metadata overeenkomen met al de opgegeven trefwoorden in de 'origin'-regel.
+Description-pt.UTF-8: Origins-Pattern que os pacotes têm de coincidir para serem actualizados:
+ Por favor especifique um valor para Origin-Pattern do unatteded-upgrades.
+ .
+ Um pacote será actualizado apenas se o valor dos seus metadados coincidir com todas as palavras-chave fornecidas na linha original.
+Description-ru.UTF-8: Origins-Pattern пакетов, которые нужно обновлять:
+ Укажите значение параметра Origins-Pattern для unattended-upgrades.
+ .
+ Пакет будет обновляться только если его значения метаданных совпадут со всеми указанными ключевыми словами в строке источника (origin line).

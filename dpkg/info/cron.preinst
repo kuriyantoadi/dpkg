@@ -7,7 +7,4 @@ if [ "$1" = upgrade ] && [ -L /etc/init.d/cron ]; then
     rm /etc/init.d/cron
 fi
 
-# Automatically added by dh_installdeb/10.10.7ubuntu2
-dpkg-maintscript-helper rm_conffile /etc/init/cron.conf 3.0pl1-128ubuntu5~ cron -- "$@"
-# End automatically added section
 

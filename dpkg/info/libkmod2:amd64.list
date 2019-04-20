@@ -1,7 +1,7 @@
 /.
 /lib
 /lib/x86_64-linux-gnu
-/lib/x86_64-linux-gnu/libkmod.so.2.3.2
+/lib/x86_64-linux-gnu/libkmod.so.2.3.0
 /usr
 /usr/share
 /usr/share/doc

@@ -1,5 +1,14 @@
 #!/bin/sh
 set -e
-# Automatically added by dh_installdeb/11.1.3ubuntu1
-dpkg-maintscript-helper rm_conffile /etc/init/passwd.conf 1:4.2-3.2ubuntu4\~ passwd -- "$@"
+# Automatically added by dh_installinit
+if [ "$1" = "purge" ] ; then
+	update-rc.d passwd remove >/dev/null
+fi
+
+
+# In case this system is running systemd, we make systemd reload the unit files
+# to pick up changes.
+if [ -d /run/systemd/system ] ; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
 # End automatically added section

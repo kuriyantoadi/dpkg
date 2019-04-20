@@ -1,7 +1,0 @@
-d621af6e69905326ed642dcdfbb4360c  usr/lib/i386-linux-gnu/libodbc.so.2.0.0
-2ec2ddebf204c71fa2151a2961684772  usr/lib/i386-linux-gnu/libodbccr.so.2.0.0
-b5f496e1172dccb3c18cf7c3fe0890dc  usr/lib/i386-linux-gnu/odbc/libnn.so
-43e76193181110295d78b8d40c7a1077  usr/share/doc/libodbc1/NEWS.Debian.gz
-9f5e092eb92697bac557ee111f42c4e7  usr/share/doc/libodbc1/changelog.Debian.gz
-0b1e9837a9135ddbba7fbb425d78cd4e  usr/share/doc/libodbc1/copyright
-3f29f39ad5c81c8f0ad5a83d5775d10a  usr/share/lintian/overrides/libodbc1

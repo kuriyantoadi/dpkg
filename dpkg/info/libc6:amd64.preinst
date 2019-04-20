@@ -5,6 +5,15 @@ export LC_ALL=C
 type=$1
 preversion=$2
 
+package_name()
+{
+    if dpkg --assert-multi-arch 2>/dev/null; then
+        echo libc6:${DPKG_MAINTSCRIPT_ARCH}
+    else
+        echo libc6
+    fi
+}
+
 linux_compare_versions () {
     verA=$(($(echo "$1" | sed 's/^\([0-9]*\.[0-9]*\)\([^.0-9]\|$\)/\1.0\2/; s/\([0-9]*\)\.\([0-9]*\)\.\([0-9]*\).*/\1 \* 10000 + \2 \* 100 + \3/')))
     verB=$(($(echo "$3" | sed 's/^\([0-9]*\.[0-9]*\)\([^.0-9]\|$\)/\1.0\2/; s/\([0-9]*\)\.\([0-9]*\)\.\([0-9]*\).*/\1 \* 10000 + \2 \* 100 + \3/')))
@@ -144,6 +153,12 @@ then
         # sanity checking for the appropriate kernel on each architecture.
         kernel_ver=`uname -r`
         case ${DPKG_MAINTSCRIPT_ARCH:-$(dpkg --print-architecture)} in
+            amd64|i386)
+                # The GNU libc requires a >= 2.6.32 kernel, found in squeeze or RHEL6
+                kernel_ver_min=2.6.32
+                # But we don't officially support kernels before 3.2
+                kernel_ver_rec=3.2
+                ;;
             *)
                 # The GNU libc requires a >= 3.2 kernel, found in wheezy
                 kernel_ver_min=3.2
@@ -230,7 +245,7 @@ then
         # libraries found will be ignored.
         ldbytes=""
     fi
-    libcfiles=$(dpkg-query -L ${DPKG_MAINTSCRIPT_PACKAGE}:${DPKG_MAINTSCRIPT_ARCH} 2>/dev/null)
+    libcfiles=$(dpkg-query -L $(package_name) 2>/dev/null)
 
     dirs="/lib/x86_64-linux-gnu /lib /lib/tls /lib32 /lib64 /usr/local/lib /usr/local/lib32 /usr/local/lib64"
     for dir in $dirs ; do
@@ -267,9 +282,29 @@ then
         fi
     fi
 
-    if [ -n "$preversion" ] && [ -x "$(which ischroot)" ] && ! ischroot; then
+    # ldconfig might have broken the ld.so symlink in case a biarch package
+    # of the same architecture than the native one has been installed (e.g.:
+    # libc6-amd64:i386 on amd64). Try to detect this by checking that the 
+    # ld.so symlink correctly points to ld-*.so in the slib directory, and 
+    # disabling ldconfig if it is not the case and the new version hasn't
+    # been unpacked yet. The symlink will be fixed when unpacking the new 
+    # libc version and ldconfig will be re-enabled when a new fixed version
+    # is unpacked.
+    if ! readlink -m /lib64/ld-linux-x86-64.so.2 | grep -qE '/lib/x86_64-linux-gnu/ld-[0-9.]+\.so' ; then
+        # The unpack order is not guaranteed, only disable ldconfig if 
+        # a "broken" version is installed.
+        libc_bin_version=$(dpkg-query -W -f='${Version}' libc-bin)
+        if dpkg --compare-versions "$libc_bin_version" lt "2.18-2"; then
+            echo "Warning: found a potentially broken dynamic loader symlink,"
+            echo "disabling ldconfig to avoid a possible system breakage. It"
+            echo "will be reenabled when a new version of libc-bin is unpacked." 
+            ln -sf /bin/true /sbin/ldconfig
+        fi
+    fi
+
+    if [ -n "$preversion" ]; then
 	# NSS authentication trouble guard
-	if dpkg --compare-versions "$preversion" lt 2.27; then
+	if dpkg --compare-versions "$preversion" lt 2.23; then
 	    if pidof xscreensaver xlockmore >/dev/null; then
 		if [ -f /usr/share/debconf/confmodule ] ; then
 		    db_version 2.0
@@ -314,8 +349,6 @@ then
 	    	    	-e's/\blpr-ppd\b/lpd-ppd/g' \
 	    	    	-e's/\bmysql-server\b/mysql/g' \
 	    	    	-e's/\bsasl2-bin\b/saslauthd/g' \
-	    	    	-e's/\bsamaba\b/smbd/g' \
-	    	    	-e's/\bpostgresql-common\b/postgresql/g' \
 	    )
 	    echo
 	    echo "Checking init scripts..."
@@ -398,8 +431,8 @@ then
             check="$check boa cucipop courier-authdaemon cron cups exim"
             check="$check exim4-base dovecot-common cucipop incron lprng lpr"
             check="$check lpr-ppd mysql-server nis openbsd-inetd"
-            check="$check openldapd postgresql-common proftpd postfix postfix-tls"
-            check="$check rsync samba sasl2-bin slapd smail sendmail snmpd ssh"
+            check="$check openldapd proftpd postfix postfix-tls rsync samba"
+            check="$check sasl2-bin slapd smail sendmail snmpd ssh"
             check="$check spamassassin vsftpd wu-ftpd wu-ftpd-academ wwwoffle"
             check="$check webmin dropbear"
             # the following substitution processes the check variable
@@ -504,7 +537,7 @@ then
             else
                 echo "Nothing to restart."
             fi
-	fi # end upgrading and $preversion lt 2.27
+	fi # end upgrading and $preversion lt 2.23
     fi # Upgrading
 
     # This will keep us from using hwcap libs (optimized) during an
@@ -512,10 +545,26 @@ then
     touch /etc/ld.so.nohwcap
 fi
 
+# We now use the multiarch triplet instead of the GNU triplet for the ld.so
+# configuration file, in order to keep a stable path. Remove the old file.
+case ${DPKG_MAINTSCRIPT_ARCH:-$(dpkg --print-architecture)} in
+    hurd-i386)
+        dpkg-maintscript-helper rm_conffile /etc/ld.so.conf.d/i486-gnu.conf 2.19-11~ libc0.3:hurd-i386 -- "$@"
+        dpkg-maintscript-helper rm_conffile /etc/ld.so.conf.d/i486-gnu-gnu.conf 2.19-11~ libc0.3:hurd-i386 -- "$@"
+        ;;
+    i386)
+        dpkg-maintscript-helper rm_conffile /etc/ld.so.conf.d/i486-linux-gnu.conf 2.19-4~ libc6:i386 -- "$@"
+        dpkg-maintscript-helper rm_conffile /etc/ld.so.conf.d/i686-linux-gnu.conf 2.19-13~ libc6:i386 -- "$@"
+        ;;
+    kfreebsd-i386)
+        dpkg-maintscript-helper rm_conffile /etc/ld.so.conf.d/i486-kfreebsd-gnu.conf 2.19-11~ libc0.1:kfreebsd-i386 -- "$@"
+        ;;
+esac
+
 
 
 if [ -n "$preversion" ]; then
-    if dpkg --compare-versions "$preversion" lt 2.27; then
+    if dpkg --compare-versions "$preversion" lt 2.23; then
        # unconditionally wipe ld.so.cache on major version upgrades; this
        # makes those upgrades a bit slower, but is less error-prone than
        # hoping we notice every time the cache format is changed upstream
